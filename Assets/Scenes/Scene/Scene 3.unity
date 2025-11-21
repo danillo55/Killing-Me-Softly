@@ -866,8 +866,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f0bace09d9c5f74ca789eecb26d395a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FrameGameObject: {fileID: 0}
-  maskMaterial: {fileID: 0}
+  FrameGameObject: {fileID: 1077982040}
+  maskMaterial: {fileID: 2100000, guid: 952ebabddf33e584292c3281c371de2c, type: 2}
 --- !u!4 &762972004
 Transform:
   m_ObjectHideFlags: 0
