@@ -1,0 +1,13 @@
+﻿title: Scene7
+---
+
+<<textColorChangeToWhite LayoutManager>>
+<<EditShaderFrame LayoutManager 1 1 0.48 0.27 3 false>>
+
+<<wait 3>>
+We walked together, among the rainy streets, talking about random things.
+The sound of raindrops softened every word, as if the world wanted to listen quietly to us.
+I kept stealing glances at him, wondering how someone could look so warm even in this cold weather.
+
+<<ChangeScene LayoutManager "Scene 8" 0.5>>
+===

@@ -1,0 +1,19 @@
+﻿title: JohanClicked
+---
+<<ChangeScene BackgroundManager "Scene 3" 0.5>>
+===
+
+title: MadingClicked
+---
+This is mading. there are a lot of information here.
+===
+
+title: LibrarianClicked
+---
+Mrs. Librarian always tell me to shut up even though I rarely make any noise.
+===
+
+title: WindowClicked
+---
+There's a heavy rain outside
+===

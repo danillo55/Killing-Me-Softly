@@ -1,0 +1,27 @@
+﻿title: Scene8
+---
+
+<<wait 2>>
+<<FadeFrame YarnCommand 1 0 2>>
+
+<<wait 2>>
+<<FadeFrame YarnCommand 2 0 2>>
+
+<<wait 2>>
+<<FadeFrame YarnCommand 3 0 2>>
+
+<<wait 2>>
+<<FadeFrame YarnCommand 4 0 2>>
+<<MoveObject Book 320 -150>>
+
+<<wait 3>>
+
+<<HideShelf Book>>
+<<ShowBackground Book 1.0>>
+<<FadeWholeFrame YarnCommand 0 1>>
+<<MoveObject Book -50 -100>>
+
+<<wait 1>>
+<<ShowMindScene LayoutManager 1>>
+//<<ChangeScene LayoutManager "MindScene" 0.5>>
+===

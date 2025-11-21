@@ -1,0 +1,13 @@
+﻿title: Scene5
+---
+
+<<MoveObject Book -0 -100>>
+<<MoveObject2 Book 0 -100>>
+
+<<wait 2>>
+<<AnimateWriting Book>>
+<<wait 4>>
+
+
+<<ChangeScene LayoutManager "Scene 6" 0.5>>  
+===

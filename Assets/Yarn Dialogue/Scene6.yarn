@@ -1,0 +1,18 @@
+﻿title: Scene6
+---
+
+It's still raining outside, but I'm happy.
+Finally, I can spend some time with him again.  
+
+<color=\#ffffff>Did you hear there’s a fireworks show next week?</color>
+-> <color=\#ffffff>Let's go</color>
+-> <color=\#ffffff>I’m not good with crowds like that.</color>
+
+<color=\#ffffff>Aw, well then, I’ll have to invite someone else!</color>
+-> <color=\#ffffff>Wait, it sounds like fun. Maybe I’ll go. </color>
+
+Great! I’ll contact you next week.
+
+<<ChangeScene LayoutManager "Scene 7" 0.5>>
+
+===

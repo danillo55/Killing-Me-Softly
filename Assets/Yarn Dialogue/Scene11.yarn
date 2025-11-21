@@ -1,0 +1,12 @@
+﻿title: Scene11
+---
+
+<<MoveObject Book 0 -150>>
+<<MoveObject2 Book 0 -250>>
+
+<<wait 1>>
+
+Don't you feel our interaction is destined?
+<<ChangeScene LayoutManager "Scene 12" 0.5>>
+
+===

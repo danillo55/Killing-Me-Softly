@@ -1,0 +1,6 @@
+﻿title: Scene4
+---
+<<wait  1>>>>
+<<MoveObject Book -0 -100>>
+
+===

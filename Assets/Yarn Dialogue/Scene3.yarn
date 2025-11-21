@@ -1,0 +1,116 @@
+﻿title: Scene3
+---
+
+<<declare $frameShrink = false>>
+<<declare $UVWidthBefore = 1.0>>
+<<declare $UVWHeightBefore = 1.0>>
+
+<<wait 1>>
+
+<<MoveObject Book 0 -300>>
+<<ParalaxBookShelf Book>>
+
+<<wait 2.0>>
+
+<<MoveObject Book -175 -300>>
+//<<HideShelf Book>>
+<<SetTextLayoutUI LayoutManager true false true 1075 0 -360>>
+<<wait 1.5>>
+
+<<textColorChangeToWhite LayoutManager>>
+
+Hey, how are you?
+
+ -> I'm fine, thank you.
+    <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} 0.3 0.3 3 false>>
+    <<set $UVWidthBefore = $UVWidthBefore*3/10>>
+    <<set $UVWHeightBefore = $UVWHeightBefore*3/10>>
+    <<set $frameShrink = true>>
+    <<wait 3.0>>
+    <<textColorChangeToWhite LayoutManager>>
+    Haha, that's good to know
+    <<jump IfFramed>>
+-> Just a little bit dizzy yesterday.
+    Oh, that's not good. Want me to get you some medicine?
+    -> <color=\#000000>No need, I'm fine now.</color>
+    <<jump IfNotFramed>> 
+
+ //-> <color=\#000000>I'm fine, thank you.</color>
+ //   <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} 0.3 0.3 3 false>>
+ //   <<set $UVWidthBefore = $UVWidthBefore*3/10>>
+ //   <<set $UVWHeightBefore = $UVWHeightBefore*3/10>>
+ //   <<set $frameShrink = true>>
+ //   <<wait 3.0>>
+ //   <<textColorChangeToWhite LayoutManager>>
+ //   Haha, that's good to know
+ //   <<jump IfFramed>>
+//-> <color=\#000000>Just a little bit dizzy yesterday.</color>
+//    Oh, that's not good. Want me to get you some medicine?
+//    -> <color=\#000000>No need, I'm fine now.</color>
+//    <<jump IfNotFramed>> 
+
+===
+
+title: IfFramed
+---
+There are a lot of rain lately, so be careful
+The other day, almost half of my classmates caught a cold.
+
+-> <color=\#ffffff>That's too bad</color>
+    <<if $frameShrink == false>>
+        <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} 0.3 0.3 3 false>>
+        <<set $UVWidthBefore = $UVWidthBefore*3/10>>
+        <<set $UVWHeightBefore = $UVWHeightBefore*3/10>>
+        <<set $frameShrink = true>>
+        <<wait 3.0>>
+    <<else>>
+        <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} {$UVWidthBefore/3} {$UVWHeightBefore/3} 3 false>>
+        <<set $UVWidthBefore = $UVWidthBefore/3>>
+        <<set $UVWHeightBefore = $UVWHeightBefore/3>>
+        <<wait 3.0>>
+    <<endif>>
+    Yeah, but just be careful.
+-> <color=\#ffffff>I don't know final you still need to attend classes.</color>
+    Unlucky me, I have to attend some extra classes to fix some bad grades.
+    -> <color=\#ffffff>Even though you are smart?</color>
+        I'll take that as a compliment.
+
+Let's go home then.
+
+<<jump NextScene>>
+===
+
+title: IfNotFramed
+---
+There are a lot of rain lately, so be careful
+The other day, almost half of my classmates caught a cold.
+
+-> That's too bad
+    <<if $frameShrink == false>>
+        <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} 0.3 0.3 3 false>>
+        <<set $UVWidthBefore = $UVWidthBefore*3/10>>
+        <<set $UVWHeightBefore = $UVWHeightBefore*3/10>>
+        <<set $frameShrink = true>>
+        <<textColorChangeToWhite LayoutManager>>
+        <<wait 3.0>>
+    <<else>>
+        <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} {$UVWidthBefore/8*10} {$UVWHeightBefore/8*10} 0.2 3 false>>
+        <<set $UVWidthBefore = $UVWidthBefore/8*10>>
+        <<set $UVWHeightBefore = $UVWHeightBefore/8*10>>
+        <<wait 3.0>>
+    <<endif>>
+    Yeah, but just be careful.
+-> I don't know final year students still need to attend classes.
+    Unlucky me, I have to attend some extra classes to fix some bad grades.
+    -> Even though you are smart?
+        I'll take that as a compliment.
+
+Let's go home then.
+
+<<jump NextScene>>
+===
+
+title: NextScene
+---
+<<ChangeScene LayoutManager "Scene 5" 0.5>>
+===

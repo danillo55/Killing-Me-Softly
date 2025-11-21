@@ -1,0 +1,8 @@
+﻿title: TestScript
+---
+
+// <<SetLinePresenterLayout 500 500 700>>
+<<SetTextLayoutUI LayoutManager false false true 500 500 700>>
+Some Parasite maintain a safer and stable symbiotic relationship with their hosts for years.
+<<ChangeScene LayoutManager "TestScene 2" 0.5>>
+===

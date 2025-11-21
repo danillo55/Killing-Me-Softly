@@ -1,0 +1,34 @@
+﻿title: TestScript2
+---
+
+<<textColorChangeToBlack LayoutManager>>
+
+<<ShowBook Book>>
+<<wait 3.0>>
+
+// <<SetTextLayoutUI LayoutManager false false true 300 300 800>>
+
+Just a little bit more, and this 1000 words essay will be done...
+
+<<ShowBook2 Book>>
+<<wait 4>>
+
+Fiuh, it's done!
+
+<<HideBook2 Book>>
+<<wait 2>>
+
+<<ShowTable Book>>
+<<wait 1.0>>
+
+<<ShrinkFrame YarnCommand 0.6 0.5 1 3>>
+
+<<textColorChangeToWhite LayoutManager>>
+<<wait 3.0>>
+
+I can always study at my comfortable place.
+But there's a reason why I want to do it here.
+
+<<ChangeScene LayoutManager "LibraryScene" 0.5>>
+
+===
