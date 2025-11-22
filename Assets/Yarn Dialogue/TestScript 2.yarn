@@ -18,7 +18,7 @@ Fiuh, it's done!
 <<HideBook2 Book>>
 <<wait 2>>
 
-<<ShowTable Book>>
+<<ShowBook4 Book>>
 <<wait 1.0>>
 
 <<ShrinkFrame YarnCommand 0.6 0.5 1 3>>

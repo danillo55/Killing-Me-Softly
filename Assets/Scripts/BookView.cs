@@ -5,7 +5,13 @@ using UnityEngine.UI;
 
 public class BookView : MonoBehaviour
 {
-    [SerializeField] private GameObject book1, book2, book3, book4, background;
+    [SerializeField] 
+    private GameObject  book1, 
+                        book2, 
+                        book3, 
+                        book4, 
+                        book5,
+                        background;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,6 +25,42 @@ public class BookView : MonoBehaviour
 
         //    book1.SetActive(true);
         book1.GetComponent<Image>().DOFade(1f, 2f);
+
+    }
+
+    [YarnCommand("ShowBook2")]
+    public void LoadBook2()
+    {
+
+        //    book1.SetActive(true);
+        book2.GetComponent<Image>().DOFade(1f, 2f);
+
+    }
+
+    [YarnCommand("ShowBook3")]
+    public void LoadBook3()
+    {
+
+        //    book1.SetActive(true);
+        book3.GetComponent<Image>().DOFade(1f, 2f);
+
+    }
+
+    [YarnCommand("ShowBook4")]
+    public void LoadBook4()
+    {
+
+        //    book1.SetActive(true);
+        book4.GetComponent<Image>().DOFade(1f, 2f);
+
+    }
+
+    [YarnCommand("ShowBook5")]
+    public void LoadBook5()
+    {
+
+        //    book1.SetActive(true);
+        book5.GetComponent<Image>().DOFade(1f, 2f);
 
     }
 
@@ -51,29 +93,6 @@ public class BookView : MonoBehaviour
 
     }
 
-    [YarnCommand("ShowBook2")]
-    public void LoadBook2()
-    {
-        book2.GetComponent<Image>().DOFade(1f, 2f);
-    }
-
-    [YarnCommand("FinishWriting")]
-    public void LoadBook3()
-    {
-
-        book2.GetComponent<Image>().DOFade(0f, 1f);
-
-    }
-
-    [YarnCommand("ShowTable")]
-    public void LoadBook4()
-    {
-
-        book3.GetComponent<Image>().DOFade(1f, 1f);
-//        book4.GetComponent<Image>().DOFade(1f, 1f);
-    }
-
-
     [YarnCommand("MoveObject")]
     public void TranslateObject(float x, float y)
     {
@@ -84,6 +103,24 @@ public class BookView : MonoBehaviour
     public void TranslateObject2(float x, float y)
     {
         book2.GetComponent<RectTransform>().DOAnchorPos(new Vector2(x, y), 1f).SetEase(Ease.OutQuad);
+    }
+
+    [YarnCommand("MoveObject3")]
+    public void TranslateObject3(float x, float y)
+    {
+        book3.GetComponent<RectTransform>().DOAnchorPos(new Vector2(x, y), 1f).SetEase(Ease.OutQuad);
+    }
+
+    [YarnCommand("MoveObject4")]
+    public void TranslateObject4(float x, float y)
+    {
+        book4.GetComponent<RectTransform>().DOAnchorPos(new Vector2(x, y), 1f).SetEase(Ease.OutQuad);
+    }
+
+        [YarnCommand("MoveObject5")]
+    public void TranslateObject5(float x, float y)
+    {
+        book5.GetComponent<RectTransform>().DOAnchorPos(new Vector2(x, y), 1f).SetEase(Ease.OutQuad);
     }
 
     [YarnCommand("ParalaxBookShelf")]
@@ -110,6 +147,8 @@ public class BookView : MonoBehaviour
 
         book3.GetComponent<Image>().DOFade(0f, 1f);
         book2.GetComponent<Image>().DOFade(0f, 1f);
+        book4.GetComponent<Image>().DOFade(0f, 1f);
+        book5.GetComponent<Image>().DOFade(0f, 1f);
     
     }
 

@@ -394,6 +394,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3859336324316773513, guid: 52571f68872914e24837210513edea1d, type: 3}
+      propertyPath: hurryUpLineKeyCode
+      value: 323
+      objectReference: {fileID: 0}
     - target: {fileID: 7262066351540048079, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: m_Name
       value: Dialogue System
@@ -715,6 +719,7 @@ MonoBehaviour:
   transitionManager: {fileID: 1250497609}
   transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
   frameMaterial: {fileID: 2100000, guid: 321183a4b30aba94c8e455cf9d7c74b0, type: 2}
+  MiniGameObject: {fileID: 0}
 --- !u!4 &152914562
 Transform:
   m_ObjectHideFlags: 0
@@ -1370,6 +1375,8 @@ MonoBehaviour:
   book1: {fileID: 1023878062}
   book2: {fileID: 454631176}
   book3: {fileID: 1111232289}
+  book4: {fileID: 0}
+  background: {fileID: 0}
 --- !u!1 &682186922
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,29 @@
+﻿title: Scene14
+---
+//<<FadeFrame YarnCommand 1 0 2>>
+
+<<wait 2>>
+//<<FadeFrame YarnCommand 2 0 2>>
+<<ShowBook4 Book>>
+<<wait 2>>
+<<MoveObject4 Book -300 0>>
+
+Her data, when is her birthday, where is her home. Even what's her favorite kind of music..
+
+<<wait 2>>
+//<<FadeFrame YarnCommand 3 0 2>>
+<<ShowBook5 Book>>
+<<wait 2>>
+<<MoveObject5 Book 0 0>>
+
+I can see it, I know, I know everything about her.
+
+<<wait 2>>
+<<FadeFrame YarnCommand 4 0 2>>
+<<MoveObject Book 320 -150>>
+
+But I never see her room. I want to see it, see her in her room. But that can wait.
+
+
+<<ChangeScene LayoutManager "Scene15" 3>>
+===

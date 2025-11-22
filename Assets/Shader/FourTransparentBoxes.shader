@@ -4,10 +4,10 @@ Shader "UI/FourBoxesWithAlpha"
     {
         _BoxSize ("Box Size (UV w,h)", Vector) = (0.15, 0.25, 0, 0)
 
-        _Box1Center ("Box 1 Center (UV)", Vector) = (0.25, 0.5, 0, 0)
-        _Box2Center ("Box 2 Center (UV)", Vector) = (0.40, 0.5, 0, 0)
-        _Box3Center ("Box 3 Center (UV)", Vector) = (0.55, 0.5, 0, 0)
-        _Box4Center ("Box 4 Center (UV)", Vector) = (0.70, 0.5, 0, 0)
+        _Box1Center ("Box 1 Center (UV)", Vector) = (0.28, 0.5, 0, 0)
+        _Box2Center ("Box 2 Center (UV)", Vector) = (0.42, 0.5, 0, 0)
+        _Box3Center ("Box 3 Center (UV)", Vector) = (0.57, 0.5, 0, 0)
+        _Box4Center ("Box 4 Center (UV)", Vector) = (0.73, 0.5, 0, 0)
 
         _Box1Alpha ("Box 1 Alpha", Range(0,1)) = 1
         _Box2Alpha ("Box 2 Alpha", Range(0,1)) = 1

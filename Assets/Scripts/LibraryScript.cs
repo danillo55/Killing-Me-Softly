@@ -42,7 +42,7 @@ public class LibraryScript : MonoBehaviour
         }
     }
 
-    private void OnLookLeft()
+    public void OnLookLeft()
     {
         
         if (!isLookingLeft)
@@ -53,7 +53,7 @@ public class LibraryScript : MonoBehaviour
         }
 
     }
-    private void OnLookRight()
+    public void OnLookRight()
     {
         if (isLookingLeft)
         {

@@ -1,0 +1,8 @@
+﻿title: Scene15
+---
+
+// <<SetLinePresenterLayout 500 500 700>>
+<<SetTextLayoutUI LayoutManager false false true 500 500 700>>
+Because today is the day I'll walk her home...
+<<ChangeScene LayoutManager "Scene 16" 0.5>>
+===

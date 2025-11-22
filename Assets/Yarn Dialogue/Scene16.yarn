@@ -1,27 +1,32 @@
-﻿title: Scene8
+﻿title: Scene16
 ---
 //<<FadeFrame YarnCommand 1 0 2>>
-<<ShowBook2 Book>>
-<<wait 2>>
-<<MoveObject2 Book -300 0>>
 
-<<wait 2>>
+//<<SetTextLayoutUI LayoutManager false false true 300 300 800>>
+
+<<wait 1>>
 //<<FadeFrame YarnCommand 2 0 2>>
 <<ShowBook4 Book>>
-<<wait 2>>
-<<MoveObject4 Book -100 0>>
+<<wait 1>>
+<<MoveObject4 Book -300 0>>
 
-<<wait 2>>
+Tomorrow is the deadline for her microbiology essay.
+<<wait 1>>
 //<<FadeFrame YarnCommand 3 0 2>>
 <<ShowBook5 Book>>
-<<wait 2>>
-<<MoveObject5 Book 100 0>>
+<<wait 1>>
+<<MoveObject5 Book 0 0>>
 
-<<wait 2>>
+She will do it at the library, because she wants to meet me.
+<<wait 1>>
 <<FadeFrame YarnCommand 4 0 2>>
 <<MoveObject Book 320 -150>>
 
-<<wait 3>>
+<<wait 2>>
+
+And after that....
+
+<<wait 2>>
 
 <<HideShelf Book>>
 <<ShowBackground Book 1.0>>
@@ -30,5 +35,4 @@
 
 <<wait 1>>
 <<ShowMindScene LayoutManager 1>>
-//<<ChangeScene LayoutManager "MindScene" 0.5>>
 ===
