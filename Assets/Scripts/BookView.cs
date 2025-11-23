@@ -126,8 +126,8 @@ public class BookView : MonoBehaviour
     [YarnCommand("ParalaxBookShelf")]
     public void ParalaxBookShelfFunction()
     {
-
-        book2.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, -250), 2f).SetEase(Ease.OutQuad);
+        book1.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, -300), 2f).SetEase(Ease.OutQuad);
+        book2.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, 0), 2f).SetEase(Ease.OutQuad);
         book3.GetComponent<RectTransform>().DOAnchorPos(new Vector2(0, -500), 2f).SetEase(Ease.OutQuad);
 
     }

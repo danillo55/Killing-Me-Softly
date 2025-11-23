@@ -7,7 +7,7 @@
 
 <<wait 1>>
 
-<<MoveObject Book 0 -300>>
+//<<MoveObject Book 0 -300>>
 <<ParalaxBookShelf Book>>
 
 <<wait 2.0>>

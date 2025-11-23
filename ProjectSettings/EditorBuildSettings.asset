@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Scene/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Main Menu Rainy's Episode.unity
+    guid: d304eb54c8ad46c4a8f04c19452a93ea
   - enabled: 1
     path: Assets/Scenes/Scene/TestScene.unity
     guid: c96f850fd80d09548a16087630b6a012
@@ -20,9 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene/Scene 3.unity
     guid: c38841c0f2a8b1641aeebec050df00a2
-  - enabled: 0
-    path: Assets/Scenes/Scene/Scene 4 (Backup).unity
-    guid: a54269b9635aa874b8c277b7fd7da4b2
   - enabled: 1
     path: Assets/Scenes/Scene/Scene 5.unity
     guid: 75a25ba58a148294ea24fb4995f951a2
@@ -50,6 +47,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene/TestScene 13.unity
     guid: a70c2296aa9b9b64d87ef456998a10bc
+  - enabled: 1
+    path: Assets/Scenes/Main Menu Jo's Episode.unity
+    guid: b1534fb48574bee41b640ba37e4f5d14
+  - enabled: 1
+    path: Assets/Scenes/Scene/Scene 14.unity
+    guid: d6f27e5626d218c46ac7d4baa550487f
+  - enabled: 1
+    path: Assets/Scenes/Scene/Scene 15.unity
+    guid: 414c32acabf791847b4507b5b0d3b6df
+  - enabled: 1
+    path: Assets/Scenes/Scene/Scene 16.unity
+    guid: 1a779694dd48eac4e8be1cb71cd00f8e
+  - enabled: 1
+    path: Assets/Scenes/Scene/Scene 18.unity
+    guid: 98babefc61c495a4a8ff47e13a39188b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

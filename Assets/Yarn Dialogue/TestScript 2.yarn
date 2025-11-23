@@ -16,9 +16,11 @@ Just a little bit more, and this 1000 words essay will be done...
 Fiuh, it's done!
 
 <<HideBook2 Book>>
+<<HideBook Book>>
 <<wait 2>>
 
-<<ShowBook4 Book>>
+<<ShowBook3 Book>>
+<<ShowBook5 Book>>
 <<wait 1.0>>
 
 <<ShrinkFrame YarnCommand 0.6 0.5 1 3>>

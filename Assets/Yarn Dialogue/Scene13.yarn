@@ -2,5 +2,5 @@
 ---
 <<SetTextLayoutUI LayoutManager false false true 500 500 430>>
 Universe must be helping me carving this destiny, right?
-<<wait  5>>
+<<ChangeScene LayoutManager "Main Menu Jo's Episode" 3>>
 ===
