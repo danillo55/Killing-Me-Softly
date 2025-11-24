@@ -43,7 +43,7 @@ public class DialogueFillGame2 : MonoBehaviour
             {
        
 //                ActivateYarnNode("AfterFillNode"); // Your Yarn node name
-                layoutManager.LoadScene("Scene 10", 1f);
+                layoutManager.LoadScene("Scene 18", 1f);
                 
             }            
         }
@@ -62,11 +62,19 @@ public class DialogueFillGame2 : MonoBehaviour
         img.DOFade(0f, 1f); // fade to transparent over 1 second
     }
 
-    TMP_Text txt = btn.GetComponentInChildren<TMP_Text>();
+    TMP_Text[] texts = btn.GetComponentsInChildren<TMP_Text>(true); // `true` includes inactive children
+    foreach (var t in texts)
+    {
+        if (t != null)
+            t.DOFade(0f, 1f); // fade each child text over 1 second
+    }
+
+/*    TMP_Text txt = btn.GetComponentInChildren<TMP_Text>();
     if (txt != null)
     {
         txt.DOFade(0f, 1f); // fade text too
-    }
+    }*/
+    
 }
 
     void ShakeButton(Button btn)

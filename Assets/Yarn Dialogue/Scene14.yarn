@@ -1,8 +1,8 @@
 ﻿title: Scene14
 ---
 //<<FadeFrame YarnCommand 1 0 2>>
+<<textColorChangeToWhite LayoutManager>>
 
-<<wait 2>>
 //<<FadeFrame YarnCommand 2 0 2>>
 <<ShowBook4 Book>>
 <<wait 2>>
@@ -10,7 +10,7 @@
 
 Her data, when is her birthday, where is her home. Even what's her favorite kind of music..
 
-<<wait 2>>
+
 //<<FadeFrame YarnCommand 3 0 2>>
 <<ShowBook5 Book>>
 <<wait 2>>
@@ -18,7 +18,6 @@ Her data, when is her birthday, where is her home. Even what's her favorite kind
 
 I can see it, I know, I know everything about her.
 
-<<wait 2>>
 <<FadeFrame YarnCommand 4 0 2>>
 <<MoveObject Book 320 -150>>
 

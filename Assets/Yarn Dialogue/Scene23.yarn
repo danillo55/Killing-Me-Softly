@@ -7,7 +7,7 @@ It's still raining outside, but it's okay.
 She'll follow me, even when I don't have umbrella.  
 
 <color=\#ffffff>Did you hear there’s a fireworks show next week?</color>
--> <color=\#ffffff>Let's go</color>
+<<ShowMindScene LayoutManager 0.1>>
 -> <color=\#ffffff>I’m not good with crowds like that.</color>
 
 <color=\#ffffff>Aw, well then, I’ll have to invite someone else!</color>

@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class MusicPlayer : MonoBehaviour
 {
@@ -6,6 +8,8 @@ public class MusicPlayer : MonoBehaviour
 
     void Awake()
     {
+        string currentSceneName = SceneManager.GetActiveScene().name;
+
         // If another MusicPlayer already exists, destroy this one
         if (instance != null && instance != this)
         {
@@ -13,6 +17,14 @@ public class MusicPlayer : MonoBehaviour
             return;
         }
 
+        if (currentSceneName == "Main Menu Jo's Episode" || 
+            currentSceneName == "Main Menu Rainy's Episode" ||
+            currentSceneName == "Main Menu Real's Episode")
+        {
+            Destroy(gameObject);
+            return;
+
+        }
         // Set this as the singleton instance
         instance = this;
         DontDestroyOnLoad(gameObject);
