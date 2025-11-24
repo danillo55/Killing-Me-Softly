@@ -5,5 +5,5 @@
 <<SetTextLayoutUI LayoutManager false false true 500 500 700>>
 An then, she said it...
 "Hey, wanna have some tea?"
-<<ChangeScene LayoutManager "Scene 19" 0.5>>
+<<ChangeScene LayoutManager "Scene 25" 0.5>>
 ===
