@@ -1,5 +1,5 @@
 ﻿title: Scene12
 ---
-<<wait 5>>
+<<HeartbeatAnimation Book 3685 0 1.5>>
 <<ChangeScene LayoutManager "TestScene 13" 2>>
 ===

@@ -1,0 +1,21 @@
+﻿title: Scene22
+---
+
+<<textColorChangeToWhite LayoutManager>>
+
+I know we're going to talk about her favorite movies.
+Your favourite film is the first SAW, and your favourite series is Dexter.
+Oh, there's also a firework festival next week. Let's talk about it too.
+
+<<HideBook Book>>
+
+<<wait 3>>
+
+<<ShowBook2 Book>>
+
+I has to match her step...
+Her feet is not that small, but her reach isn't that wide.
+She walk slowly than me, I have to be careful.
+
+<<ChangeScene LayoutManager "Scene 8" 0.5>>
+===

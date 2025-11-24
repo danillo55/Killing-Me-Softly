@@ -117,10 +117,17 @@ public class BookView : MonoBehaviour
         book4.GetComponent<RectTransform>().DOAnchorPos(new Vector2(x, y), 1f).SetEase(Ease.OutQuad);
     }
 
-        [YarnCommand("MoveObject5")]
+
+    [YarnCommand("MoveObject5")]
     public void TranslateObject5(float x, float y)
     {
         book5.GetComponent<RectTransform>().DOAnchorPos(new Vector2(x, y), 1f).SetEase(Ease.OutQuad);
+    }
+
+    [YarnCommand("HeartbeatAnimation")]
+    public void Heartbeat(float x, float y, float duration)
+    {
+        book4.GetComponent<RectTransform>().DOAnchorPos(new Vector2(x, y), duration).SetEase(Ease.OutQuad);
     }
 
     [YarnCommand("ParalaxBookShelf")]

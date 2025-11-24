@@ -1,9 +1,9 @@
-﻿title: Scene18
+﻿title: Scene24
 ---
 
 // <<SetLinePresenterLayout 500 500 700>>
 <<SetTextLayoutUI LayoutManager false false true 500 500 700>>
-Ah...
-Now I just need to ask the final question...
+An then, she said it...
+"Hey, wanna have some tea?"
 <<ChangeScene LayoutManager "Scene 19" 0.5>>
 ===

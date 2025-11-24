@@ -2,7 +2,15 @@
 ---
 
 // <<SetLinePresenterLayout 500 500 700>>
-<<SetTextLayoutUI LayoutManager false false true 500 500 700>>
-Because today is the day I'll walk her home...
-<<ChangeScene LayoutManager "Scene 16" 0.5>>
+<<SetTextLayoutUI LayoutManager false false true 500 500 950>>
+<<textColorChangeToBlack LayoutManager>>
+<<MoveObject Book -0 -100>>
+<<MoveObject2 Book 0 -100>>
+
+<<wait 2>>
+<<AnimateWriting Book>>
+
+<<wait 3>>
+Yes
+<<ChangeScene LayoutManager "Scene 21" 0.5>>
 ===
