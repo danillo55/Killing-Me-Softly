@@ -19,8 +19,14 @@ public class DialogueFillGame : MonoBehaviour
 
     void Start()
     {
-        mainSentenceText.text = sentenceTemplate;
-
+        if (mainSentenceText == null)
+        {
+            Debug.Log("Sentence gameobject is empty");
+        }
+        else{
+            mainSentenceText.text = sentenceTemplate;
+        }
+        
         for (int i = 0; i < wordButtons.Length; i++)
         {
             int index = i;

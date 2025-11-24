@@ -126,6 +126,14 @@ public class LayoutManager : MonoBehaviour
         MiniGameObject.SetActive(true);
     
     }    
+
+    [YarnCommand("HideMindScene")]
+    public void hideMindGameObject(float duration)
+    {
+
+        MiniGameObject.SetActive(false);
+    
+    }   
     
     [YarnCommand("ChangeScene")]
     public void LoadScene(string _sceneName, float startDelay)

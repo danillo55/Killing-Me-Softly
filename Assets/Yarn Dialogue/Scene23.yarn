@@ -9,9 +9,12 @@ She'll follow me, even when I don't have umbrella.
 <color=\#ffffff>Did you hear there’s a fireworks show next week?</color>
 <<ShowMindScene LayoutManager 0.1>>
 -> <color=\#ffffff>I’m not good with crowds like that.</color>
+<<HideMindScene LayoutManager 0.1>>
 
 <color=\#ffffff>Aw, well then, I’ll have to invite someone else!</color>
+<<ShowMindScene LayoutManager 0.1>>
 -> <color=\#ffffff>Wait, it sounds like fun. Maybe I’ll go. </color>
+<<HideMindScene LayoutManager 0.1>>
 
 Great! I’ll contact you next week.
 
