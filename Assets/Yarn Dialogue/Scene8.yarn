@@ -1,25 +1,29 @@
 ﻿title: Scene8
 ---
 //<<FadeFrame YarnCommand 1 0 2>>
+<<textColorChangeToWhite LayoutManager>>
+
 <<ShowBook2 Book>>
 <<wait 2>>
 <<MoveObject2 Book -300 0>>
+We walked among rainy treet, me and him, together.
 
-<<wait 2>>
 //<<FadeFrame YarnCommand 2 0 2>>
 <<ShowBook4 Book>>
 <<wait 2>>
 <<MoveObject4 Book -100 0>>
+We talked about my favourite movies, my next assignment, and other random things.
 
-<<wait 2>>
 //<<FadeFrame YarnCommand 3 0 2>>
 <<ShowBook5 Book>>
 <<wait 2>>
 <<MoveObject5 Book 100 0>>
+Sometimes I laughed, while smiles never leave his face.
 
-<<wait 2>>
 <<FadeFrame YarnCommand 4 0 2>>
 <<MoveObject Book 320 -150>>
+
+Secretly, I kept glancing at him. How someone could look so warm during this weather.
 
 <<wait 3>>
 
