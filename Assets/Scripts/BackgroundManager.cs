@@ -38,7 +38,7 @@ public class BackgroundManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         string currentSceneName = SceneManager.GetActiveScene().name;
     //    GameObject center2D = GetObjectAtLeft();
@@ -50,9 +50,10 @@ public class BackgroundManager : MonoBehaviour
             Background4.background.transform.Translate(Vector3.left * Time.deltaTime * CameraSpeed);
             Background5.background.transform.Translate(Vector3.left * Time.deltaTime * CameraSpeed);
 
-            if(Background1.background.transform.position.x <= -25.6f)
+            if(Background1.background.GetComponent<RectTransform>().anchoredPosition.x <= -735f)
             {
-                Background1.background.transform.DOMove(new Vector3(38.4f, 0, -4), 0.0001f);
+                Background1.background.GetComponent<RectTransform>().anchoredPosition = 
+                    new Vector2(490f, 0);
 
                 BackgroundList tempBackground = Background1;
 
@@ -70,20 +71,22 @@ public class BackgroundManager : MonoBehaviour
             Background2.background.transform.Translate(Vector3.right * Time.deltaTime * CameraSpeed);
             Background3.background.transform.Translate(Vector3.right * Time.deltaTime * CameraSpeed);
             Background4.background.transform.Translate(Vector3.right * Time.deltaTime * CameraSpeed);
-            Background5.background.transform.Translate(Vector3.right * Time.deltaTime * CameraSpeed);
-            
-            if(Background5.background.transform.position.x >= 25.6f)
-            {
-                Background5.background.transform.DOMove(new Vector3(-38.4f, 0, -4), 0.0001f);
+            Background5.background.transform.Translate(Vector3.right * Time.deltaTime * CameraSpeed); 
+          
 
-                BackgroundList tempBackground = Background5;
 
-                Background5 = Background4;
-                Background4 = Background3;
-                Background3 = Background2;
-                Background2 = Background1; 
-                Background1 = tempBackground;
-            }
+        if (Background5.background.GetComponent<RectTransform>().anchoredPosition.x >= 490f)
+    {
+            Background5.background.GetComponent<RectTransform>().anchoredPosition = 
+                new Vector2(-735f, 0);
+
+            BackgroundList tempBackground = Background5;
+            Background5 = Background4;
+            Background4 = Background3;
+            Background3 = Background2;
+            Background2 = Background1;
+            Background1 = tempBackground;
+    }
         }
         
 

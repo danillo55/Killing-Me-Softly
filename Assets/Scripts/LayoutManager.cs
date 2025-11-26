@@ -148,7 +148,7 @@ public class LayoutManager : MonoBehaviour
     void Start()
     {
         frameMaterial.SetVector("_Size", new Vector2(1f, 1f));
-
+        
     }
 
     // Update is called once per frame
