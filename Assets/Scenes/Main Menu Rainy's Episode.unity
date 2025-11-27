@@ -1270,8 +1270,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1635673677}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: PlayCampaignMobile
+        m_TargetAssemblyTypeName: SlimUI.ModernMenu.UIMenuManager, Assembly-CSharp
+        m_MethodName: ContinueCampaignMobile
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

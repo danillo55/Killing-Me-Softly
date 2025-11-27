@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 using DG.Tweening;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class LayoutManager : MonoBehaviour
 {
@@ -76,6 +77,7 @@ public class LayoutManager : MonoBehaviour
         if (frameMaterial == null) return;
 
         frameMaterial.SetVector("_Size", new Vector2(UVStartWidth, UVStartHeight));
+        frameMaterial.SetVector("_Center", new Vector2(0.3f, 0.5f));
 
         // Animate width
         DOTween.To(
@@ -143,11 +145,24 @@ public class LayoutManager : MonoBehaviour
     
     }
 
-
+    [YarnCommand("SaveScene")]
+    public void SaveGameScene(string sceneCode)
+    {
+        string sceneName = "Scene "+sceneCode;
+        PlayerPrefs.SetString("LastScene", sceneName);
+        PlayerPrefs.Save();
+        Debug.Log("Saved scene: " + sceneName);
+    
+    }
     
     void Start()
     {
+        string sceneName = SceneManager.GetActiveScene().name;
+        PlayerPrefs.SetString("LastScene", sceneName);
+        PlayerPrefs.Save();
+        Debug.Log("Saved scene: " + sceneName);
         frameMaterial.SetVector("_Size", new Vector2(1f, 1f));
+        frameMaterial.SetVector("_Center", new Vector2(0.5f, 0.5f));
         
     }
 

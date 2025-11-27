@@ -10,7 +10,7 @@
 <<wait 1>>
 <<MoveObject4 Book -300 0>>
 
-Tomorrow is the deadline for her microbiology essay.
+Today is the deadline for her microbiology essay.
 <<wait 1>>
 //<<FadeFrame YarnCommand 3 0 2>>
 <<ShowBook5 Book>>

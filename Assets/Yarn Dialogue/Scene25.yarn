@@ -1,5 +1,7 @@
 ﻿title: Scene25
 ---
 <<HeartbeatAnimation Book 3630 0 2>>
+<<SaveScene LayoutManager 26>>
+<<wait 1>>
 <<ChangeScene LayoutManager "Main Menu Jo's Episode" 2>>
 ===

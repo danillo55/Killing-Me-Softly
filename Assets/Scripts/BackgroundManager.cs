@@ -50,10 +50,10 @@ public class BackgroundManager : MonoBehaviour
             Background4.background.transform.Translate(Vector3.left * Time.deltaTime * CameraSpeed);
             Background5.background.transform.Translate(Vector3.left * Time.deltaTime * CameraSpeed);
 
-            if(Background1.background.GetComponent<RectTransform>().anchoredPosition.x <= -735f)
+            if(Background1.background.GetComponent<RectTransform>().anchoredPosition.x <= -1000f)
             {
                 Background1.background.GetComponent<RectTransform>().anchoredPosition = 
-                    new Vector2(490f, 0);
+                    new Vector2(920f, 0);
 
                 BackgroundList tempBackground = Background1;
 
@@ -75,10 +75,10 @@ public class BackgroundManager : MonoBehaviour
           
 
 
-        if (Background5.background.GetComponent<RectTransform>().anchoredPosition.x >= 490f)
+        if (Background5.background.GetComponent<RectTransform>().anchoredPosition.x >= 1000f)
     {
             Background5.background.GetComponent<RectTransform>().anchoredPosition = 
-                new Vector2(-735f, 0);
+                new Vector2(-920f, 0);
 
             BackgroundList tempBackground = Background5;
             Background5 = Background4;

@@ -148,11 +148,15 @@ namespace SlimUI.ModernMenu{
 		}
 
 		public void ContinueCampaignMobile(){
-/*			exitMenu.SetActive(false);
-			if(extrasMenu) extrasMenu.SetActive(false);
-			playMenu.SetActive(true);
-			mainMenu.SetActive(false); */
-//			Application.Quit();
+        if (PlayerPrefs.HasKey("LastScene"))
+        {
+            string sceneToLoad = PlayerPrefs.GetString("LastScene");
+            SceneManager.LoadScene(sceneToLoad);
+        }
+        else
+        {
+            Debug.Log("No saved scene found.");
+        }
 		}
 
 
