@@ -26,6 +26,7 @@ public class LayoutManager : MonoBehaviour
 
     [SerializeField] private GameObject MiniGameObject;
     [SerializeField] private DialogueRunner dialogue;
+    [SerializeField] private AudioSource AdditionalSFX;
 
 
     [YarnCommand("SetTextLayoutUI")]
@@ -104,6 +105,24 @@ public class LayoutManager : MonoBehaviour
     {
 
         TextContainer.GetComponent<TextMeshProUGUI>().color = Color.white;
+
+    }
+
+    [YarnCommand("PlayAdditionalSFX")]
+    public void PlayAdditionalSFX(float sfxduration)
+    {
+
+        AdditionalSFX.DOFade(1f, 0).OnPlay(() => AdditionalSFX.Play());
+        Invoke(nameof(StopAdditionalSFX), sfxduration);
+
+    }
+
+    [YarnCommand("StopAdditionalSFX")]
+
+    public void StopAdditionalSFX()
+    {
+
+        AdditionalSFX.DOFade(0f, 0.5f).OnComplete(() => AdditionalSFX.Stop());
 
     }
 

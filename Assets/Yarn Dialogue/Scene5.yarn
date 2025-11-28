@@ -1,6 +1,6 @@
 ﻿title: Scene5
 ---
-
+<<PlayMusic MusicPlayer 1>>
 <<MoveObject Book -0 -100>>
 <<MoveObject2 Book 0 -100>>
 

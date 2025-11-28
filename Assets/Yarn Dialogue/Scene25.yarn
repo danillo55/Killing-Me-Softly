@@ -1,6 +1,9 @@
 ﻿title: Scene25
 ---
+
+<<PlayMusic MusicPlayer 1>>
 <<HeartbeatAnimation Book 3630 0 2>>
+<<PlayAdditionalSFX LayoutManager 0.8>>
 <<SaveScene LayoutManager 26>>
 <<wait 1>>
 <<ChangeScene LayoutManager "Main Menu Jo's Episode" 2>>

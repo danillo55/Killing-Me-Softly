@@ -11,7 +11,7 @@
 // <<SetTextLayoutUI LayoutManager false false true 300 300 800>>
 
 Just a little bit more, and this 1000 words essay will be done...
-
+<<PlayAdditionalSFX LayoutManager 2>>
 <<ShowBook2 Book>>
 <<wait 4>>
 

@@ -1,5 +1,7 @@
 ﻿title: Scene10
 ---
+<<PlayMusic MusicPlayer 1>>
 <<HeartbeatAnimation Book 5180 0 1.5>>
+<<PlayAdditionalSFX LayoutManager 0.8>>
 <<ChangeScene LayoutManager "Scene 11" 2>>
 ===
