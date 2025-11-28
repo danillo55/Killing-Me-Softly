@@ -20,7 +20,7 @@ Today is the deadline for her microbiology essay.
 She will do it at the library, because she wants to meet me.
 <<wait 1>>
 <<FadeFrame YarnCommand 4 0 2>>
-<<MoveObject Book 320 -150>>
+<<MoveObject Book 300 -150>>
 
 <<wait 2>>
 
@@ -31,7 +31,7 @@ And after that....
 <<HideShelf Book>>
 <<ShowBackground Book 1.0>>
 <<FadeWholeFrame YarnCommand 0 1>>
-<<MoveObject Book -50 -100>>
+<<MoveObject Book 0 -100>>
 
 <<wait 1>>
 <<ShowMindScene LayoutManager 1>>

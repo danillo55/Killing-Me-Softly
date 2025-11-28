@@ -178,6 +178,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2958262986520364888, guid: 52571f68872914e24837210513edea1d, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: e76ecb71d2e45474aa7ba270c09d7825, type: 2}
+    - target: {fileID: 2958262986520364888, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: m_fontColor.b
       value: 0
       objectReference: {fileID: 0}
@@ -190,12 +194,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2958262986520364888, guid: 52571f68872914e24837210513edea1d, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5678841948212564882, guid: e76ecb71d2e45474aa7ba270c09d7825, type: 2}
+    - target: {fileID: 2958262986520364888, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4278190080
       objectReference: {fileID: 0}
     - target: {fileID: 2958262986520364888, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2958262986520364888, guid: 52571f68872914e24837210513edea1d, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2958262987206614836, guid: 52571f68872914e24837210513edea1d, type: 3}
       propertyPath: m_IsActive
@@ -543,6 +555,9 @@ MonoBehaviour:
   transition: {fileID: 11400000, guid: 013263c83b6a84c4d95beaa8bd163ac8, type: 2}
   frameMaterial: {fileID: 2100000, guid: 321183a4b30aba94c8e455cf9d7c74b0, type: 2}
   MiniGameObject: {fileID: 0}
+  MiniGameChoice: {fileID: 0}
+  dialogue: {fileID: 0}
+  AdditionalSFX: {fileID: 0}
 --- !u!4 &152914562
 Transform:
   m_ObjectHideFlags: 0
@@ -598,7 +613,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 40}
-  m_SizeDelta: {x: 320, y: 640}
+  m_SizeDelta: {x: 369, y: 640}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &454631178
 MonoBehaviour:
@@ -620,7 +635,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 25f5b2d7912dc0942a0821d641671830, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 01fc44d6f2430bd438893dd02f9bf249, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -796,6 +811,7 @@ MonoBehaviour:
   book3: {fileID: 454631176}
   book4: {fileID: 0}
   book5: {fileID: 0}
+  book6: {fileID: 0}
   background: {fileID: 0}
 --- !u!1 &762972002
 GameObject:
@@ -1003,7 +1019,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 40}
-  m_SizeDelta: {x: 320, y: 640}
+  m_SizeDelta: {x: 369, y: 640}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1496263014
 MonoBehaviour:
@@ -1025,7 +1041,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ab9c6d08ab5baab4ba569dce47557aec, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b3f3173dad9e8a746b8c4311feb2fc5b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -48,8 +48,8 @@ public class DialogueFillGame : MonoBehaviour
             if (currentIndex >= correctWords.Length)
             {
        
-//                ActivateYarnNode("AfterFillNode"); // Your Yarn node name
-                layoutManager.LoadScene("Scene 10", 1f);
+                ActivateYarnNode("Scene8End"); // Your Yarn node name
+//                layoutManager.LoadScene("Scene 10", 1f);
                 
             }            
         }

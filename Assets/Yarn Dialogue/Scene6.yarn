@@ -1,25 +1,25 @@
 ﻿title: Scene6
 ---
 <<PlayMusic MusicPlayer 1>>
-<color=\#FF00EF><i>It's still raining outside, but I'm happy.</i></color>
-<color=\#FF00EF><i>Finally, I can spend some time with him again.  </i></color>
+//<color=\#FF00EF><i>It's still raining outside, but I'm happy.</i></color>
+//<color=\#FF00EF><i>Finally, I can spend some time with him again.  </i></color>
 
 <color=\#0090FF>You know, I really missed this</color>
+You know, I really missed this
 -> <color=\#FF00EF>Missed what?</color>
     <color=\#0090FF>You know, This moment</color>
     <color=\#0090FF>This moment, when we walk together, just two of us.</color>
     
 
-<color=\#0090FF>Did you know, there’s a fireworks show next week?</color>
+<color=\#0090FF>Also, do you know there’s a fireworks show next week?</color>
 <color=\#0090FF>Sunday night, at town square.</color>
--> <color=\#FF00EF>Let's go</color>
+-> <color=\#FF00EF>Let's go!</color>
     <<SaveChoice LayoutManager 1>>
 -> <color=\#FF00EF>I want to go, but...</color>
-    <color=\#FF00EF><i>I really want to go, but..</i></color>
     <color=\#0090FF>Yes?</color>
-    -> <color=\#FF00EF>I'm not good with crowd.</color>
+    -> <color=\#FF00EF>I'm not good with crowds.</color>
         <color=\#0090FF>Ah, well then, I’ll have to invite someone else.</color>
-        -> <color=\#FF00EF>Wait, I'll go</color>
+        -> <color=\#FF00EF>Wait! I'll go.</color>
             <<SaveChoice LayoutManager 2>>
 
 <color=\#0090FF>Great! I’ll contact you next week.</color>

@@ -11,6 +11,7 @@ public class BookView : MonoBehaviour
                         book3, 
                         book4, 
                         book5,
+                        book6,
                         background;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -63,6 +64,14 @@ public class BookView : MonoBehaviour
         book5.GetComponent<Image>().DOFade(1f, 2f);
 
     }
+    [YarnCommand("ShowBook6")]
+    public void LoadBook6()
+    {
+
+        //    book1.SetActive(true);
+        book6.GetComponent<Image>().DOFade(1f, 2f);
+
+    }
 
     [YarnCommand("HideBook")]
     public void HideBookFunction()
@@ -82,6 +91,15 @@ public class BookView : MonoBehaviour
 
     }
 
+    [YarnCommand("HideBook6")]
+    public void HideBook6Function()
+    {
+
+        //    book1.SetActive(true);
+        book6.GetComponent<Image>().DOFade(0f, 3f);
+
+    }
+
 
     [YarnCommand("AnimateWriting")]
     public void ChangeBook()
@@ -90,6 +108,16 @@ public class BookView : MonoBehaviour
         
         book1.GetComponent<Image>().DOFade(0f, 3f);
         book2.GetComponent<Image>().DOFade(1f, 3f);
+
+    }
+
+    [YarnCommand("ChangeRainySprite")]
+    public void ChangeSprite()
+    {
+
+        
+        book1.GetComponent<Image>().DOFade(0f, 3f);
+        book6.GetComponent<Image>().DOFade(1f, 3f);
 
     }
 
@@ -124,6 +152,12 @@ public class BookView : MonoBehaviour
         book5.GetComponent<RectTransform>().DOAnchorPos(new Vector2(x, y), 1f).SetEase(Ease.OutQuad);
     }
 
+    [YarnCommand("MoveObject6")]
+    public void TranslateObject6(float x, float y)
+    {
+        book6.GetComponent<RectTransform>().DOAnchorPos(new Vector2(x, y), 1f).SetEase(Ease.OutQuad);
+    }
+
     [YarnCommand("HeartbeatAnimation")]
     public void Heartbeat(float x, float y, float duration)
     {
@@ -156,6 +190,7 @@ public class BookView : MonoBehaviour
         book2.GetComponent<Image>().DOFade(0f, 1f);
         book4.GetComponent<Image>().DOFade(0f, 1f);
         book5.GetComponent<Image>().DOFade(0f, 1f);
+        book6.GetComponent<Image>().DOFade(0f, 1f);
     
     }
 

@@ -24,7 +24,7 @@ public class LayoutManager : MonoBehaviour
     
     [SerializeField] private Material frameMaterial;
 
-    [SerializeField] private GameObject MiniGameObject;
+    [SerializeField] private GameObject MiniGameObject, MiniGameChoice;
     [SerializeField] private DialogueRunner dialogue;
     [SerializeField] private AudioSource AdditionalSFX;
 
@@ -150,13 +150,30 @@ public class LayoutManager : MonoBehaviour
     
     }    
 
+
     [YarnCommand("HideMindScene")]
     public void hideMindGameObject(float duration)
     {
 
         MiniGameObject.SetActive(false);
     
-    }   
+    }
+
+    [YarnCommand("ShowChoice")]
+    public void showChoice(float duration)
+    {
+
+        MiniGameChoice.SetActive(false);
+    
+    }
+
+    [YarnCommand("HideChoice")]
+    public void hideChoice(float duration)
+    {
+
+        MiniGameChoice.SetActive(false);
+    
+    }         
     
     [YarnCommand("ChangeScene")]
     public void LoadScene(string _sceneName, float startDelay)
@@ -193,6 +210,12 @@ public class LayoutManager : MonoBehaviour
     
     }
 
+    [YarnCommand("SetMaterialCenter")]
+    public void SetMaterialCenter(float x, float y)
+    {
+        frameMaterial.SetVector("_Center", new Vector2(0.5f, 0.5f));
+        Debug.Log("Material center changed");
+    }
 
     
     
@@ -203,7 +226,7 @@ public class LayoutManager : MonoBehaviour
         PlayerPrefs.Save();
         Debug.Log("Saved scene: " + sceneName);
         frameMaterial.SetVector("_Size", new Vector2(1f, 1f));
-        frameMaterial.SetVector("_Center", new Vector2(0.5f, 0.5f));
+
         
     }
 
