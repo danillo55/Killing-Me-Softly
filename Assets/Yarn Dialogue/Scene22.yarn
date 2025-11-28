@@ -1,21 +1,50 @@
 ﻿title: Scene22
 ---
 
+<<declare $lastChoice = 0>>
+
 <<textColorChangeToWhite LayoutManager>>
+<<EditShaderFrame LayoutManager 0.7 0.7 0.7 0.7 0 false>>
 
-I know we're going to talk about her favorite movies.
-Your favourite film is the first SAW, and your favourite series is Dexter.
-Oh, there's also a firework festival next week. Let's talk about it too.
+<color=\#0090FF><i>I know we're going to talk about her favorite movies.</i></color>
+<color=\#0090FF><i>There's also a firework festival next week. Let's talk about it too.</i></color>
+<color=\#0090FF><i>But what should I talk first....</i></color>
 
+<<wait 1>>
+<color=\#0090FF>Oh, I know.</color>
+
+-> <color=\#0090FF>You know, I really missed this</color>
+    <color=\#FF00EF>Missed what?</color>
+
+-> <color=\#0090FF>You know, This moment</color>
+    <color=\#0090FF>When we walk together, just two of us.</color>
+
+<<wait 1>>
 <<HideBook Book>>
 
 <<wait 3>>
 
 <<ShowBook2 Book>>
 
-I has to match her step...
-Her feet is not that small, but her reach isn't that wide.
-She walk slowly than me, I have to be careful.
+<color=\#0090FF><i>I has to match her step...</i></color>
+<color=\#0090FF><i>Her feet is not that small, but her reach isn't that wide.</i></color>
+<color=\#0090FF><i>She walk slowly than me, I have to be careful.</i></color>
+
+<<LoadChoice LayoutManager>>
+<<SetTextLayoutUI LayoutManager true false true 1075 0 -360>>
+
+<<HideBook2 Book>>
+<<wait 3>>
+-> <color=\#0090FF>Did you know, there’s a fireworks show next week?</color>   
+
+<<if $lastChoice  == 2>>
+    <color=\#FF00EF>Let's go</color>
+<<else>>
+    <color=\#FF00EF>But...</color>
+    <color=\#FF00EF>I'm not good with crowd.</color>
+    -> <color=\#0090FF>Ah, well then, I’ll have to invite someone else.</color>
+        <color=\#FF00EF>Wait, I'll go</color>
+<<endif>>
 
 <<ChangeScene LayoutManager "Scene 23" 0.5>>
 ===

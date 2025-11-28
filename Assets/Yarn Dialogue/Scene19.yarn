@@ -3,11 +3,7 @@
 
 <<SetTextLayoutUI LayoutManager false false true 500 500 700>>
 <<textColorChangeToWhite LayoutManager>>
-Do you want to go home together?
--> Yes
--> Yes
--> Yes
--> Yes
+-> Do you want to go home together?
 
 <<ChangeScene LayoutManager "Scene 20" 0.5>>
 

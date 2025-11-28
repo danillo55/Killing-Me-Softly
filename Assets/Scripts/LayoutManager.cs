@@ -25,6 +25,8 @@ public class LayoutManager : MonoBehaviour
     [SerializeField] private Material frameMaterial;
 
     [SerializeField] private GameObject MiniGameObject;
+    [SerializeField] private DialogueRunner dialogue;
+
 
     [YarnCommand("SetTextLayoutUI")]
     public void SetTextLayout(
@@ -154,6 +156,26 @@ public class LayoutManager : MonoBehaviour
         Debug.Log("Saved scene: " + sceneName);
     
     }
+    
+    [YarnCommand("SaveChoice")]
+    public void SaveGameChoice(int choice)
+    {
+        
+        PlayerPrefs.SetInt("Choice", choice);
+        PlayerPrefs.Save();
+        
+    
+    }
+
+    [YarnCommand("LoadChoice")]
+    public void LoadGameChoice()
+    {
+        dialogue.VariableStorage.SetValue("$lastChoice", PlayerPrefs.GetInt("choice"));
+    
+    }
+
+
+    
     
     void Start()
     {

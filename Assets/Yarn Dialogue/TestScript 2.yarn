@@ -2,6 +2,8 @@
 ---
 
 <<textColorChangeToBlack LayoutManager>>
+<<PlayMusic MusicPlayer 1>>
+
 
 <<ShowBook Book>>
 <<wait 3.0>>
