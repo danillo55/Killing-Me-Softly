@@ -3,8 +3,8 @@
 
 // <<SetLinePresenterLayout 500 500 700>>
 <<SetTextLayoutUI LayoutManager false false true 500 500 700>>
-And then, she said it...
-"Hey...." 
-"Wanna have some tea?"
+<color=\#DE4E00>And then, she said it...</color>
+<color=\#25C8B0>"Hey...." </color>
+<color=\#25C8B0>"Wanna have some tea?"</color>
 <<ChangeScene LayoutManager "Scene 25" 0.5>>
 ===

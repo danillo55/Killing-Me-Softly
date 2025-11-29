@@ -11,6 +11,6 @@
 <<AnimateWriting Book>>
 
 <<wait 3>>
-Yes
+<color=\#25C8B0>Yes</color>
 <<ChangeScene LayoutManager "Scene 21" 0.5>>
 ===

@@ -21,30 +21,30 @@
 <<textColorChangeToWhite LayoutManager>>
 
 //<color=\#0090FF>Hey Rainy, how are you today?</color>
-Hey Rainy, how are you today?
+<color=\#DE4E00>Hey Rainy, how are you today?</color>
 
--> <color=\#FF00EF>I'm fine... </color>
+-> <color=\#25C8B0>I'm fine... </color>
     <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} 0.45 0.8 2 false>>
     <<set $UVWidthBefore = $UVWidthBefore*45/100>>
     <<set $UVWHeightBefore = $UVWHeightBefore*8/10>>
     <<set $frameShrink = true>>
-    <color=\#0090FF>Haha, that's good to know.</color>
--> <color=\#FF00EF>Just a little bit dizzy. </color>
-    <color=\#0090FF>Oh, that's not good. </color>
-    <color=\#0090FF>Want me to get you some medicine?</color>
-    -> <color=\#FF00EF>Don’t worry about it. </color>
-    -> <color=\#FF00EF>Yes, I need it.  </color>
+    <color=\#DE4E00>Haha, that's good to know.</color>
+-> <color=\#25C8B0>Just a little bit dizzy. </color>
+    <color=\#DE4E00>Oh, that's not good. </color>
+    <color=\#DE4E00>Want me to get you some medicine?</color>
+    -> <color=\#25C8B0>Don’t worry about it. </color>
+    -> <color=\#25C8B0>Yes, I need it.  </color>
         <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} 0.45 0.8 2 false>>
         <<set $UVWidthBefore = $UVWidthBefore*45/100>>
         <<set $UVWHeightBefore = $UVWHeightBefore*8/10>>
         <<set $frameShrink = true>>
-        <color=\#0090FF>No problem, here</color>
+        <color=\#DE4E00>No problem, here</color>
 
 
-<color=\#0090FF>Still, be careful…</color>
-<color=\#0090FF>There are lots of rain lately…</color>
-<color=\#0090FF>The other day, almost half of my classmates caught a cold.</color>
--> <color=\#FF00EF>Really? </color>
+<color=\#DE4E00>Still, be careful…</color>
+<color=\#DE4E00>There are lots of rain lately…</color>
+<color=\#DE4E00>The other day, almost half of my classmates caught a cold.</color>
+-> <color=\#25C8B0>Really? </color>
     <<if $frameShrink == false>>
     <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} 0.45 0.8 2 false>>
     <<set $UVWidthBefore = $UVWidthBefore*45/100>>
@@ -57,9 +57,9 @@ Hey Rainy, how are you today?
     <<set $UVWHeightBefore = $UVWHeightBefore*8/10>>
     <<wait 2.0>>
     <<endif>>
-	<color=\#0090FF>Yeah, the lecturer wasn’t too happy about that.</color>
-	<color=\#0090FF>That day, he was 100 times scarier than usual.</color>
-    ->	<color=\#FF00EF>Did you catch the cold too?</color>
+	<color=\#DE4E00>Yeah, the lecturer wasn’t too happy about that.</color>
+	<color=\#DE4E00>That day, he was 100 times scarier than usual.</color>
+    ->	<color=\#25C8B0>Did you catch the cold too?</color>
         <<if $frameShrink == false>>
         <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} 0.45 0.8 2 false>>
         <<set $UVWidthBefore = $UVWidthBefore*45/100>>
@@ -75,11 +75,11 @@ Hey Rainy, how are you today?
 	    <color=\#0090FF>Don’t worry. I’m fine.</color>
         <color=\#0090FF>I just don’t want to see you sick, so…</color>
         <color=\#0090FF>Just be careful. You’re my precious friend.</color>
--> <color=\#FF00EF> You still attend classes?</color>
-    <color=\#0090FF>Unlucky me, I do need to attend some extra classes.</color> 
-    -> <color=\#FF00EF> Even though you are smart?</color>        		
-	    <color=\#0090FF>Haha, I'm not that smart.</color>
-    -> <color=\#FF00EF>Wow, just like me.</color>
+-> <color=\#25C8B0> You still attend classes?</color>
+    <color=\#DE4E00>Unlucky me, I do need to attend some extra classes.</color> 
+    -> <color=\#25C8B0> Even though you are smart?</color>        		
+	    <color=\#DE4E00>Haha, I'm not that smart.</color>
+    -> <color=\#25C8B0>Wow, just like me.</color>
         <<if $frameShrink == false>>
         <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} 0.45 0.8 2 false>>
         <<set $UVWidthBefore = $UVWidthBefore*45/100>>
@@ -92,11 +92,11 @@ Hey Rainy, how are you today?
         <<set $UVWHeightBefore = $UVWHeightBefore*8/10>>
         <<wait 2.0>>
         <<endif>>
-	    <color=\#0090FF>So you too? Hahaha.</color>
-        <color=\#0090FF>Maybe we have a lot of something in common</color>
+	    <color=\#DE4E00>So you too? Hahaha.</color>
+        <color=\#DE4E00>Maybe we have a lot of something in common</color>
 
-<color=\#0090FF>Anyway, Do you want to go home together?</color>
--> <color=\#FF00EF>Yes</color>
+<color=\#DE4E00>Anyway, Do you want to go home together?</color>
+-> <color=\#25C8B0>Yes</color>
     <<if $frameShrink == false>>
     <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} 0.45 0.8 2 false>>
     <<set $UVWidthBefore = $UVWidthBefore*45/100>>
@@ -109,7 +109,7 @@ Hey Rainy, how are you today?
     <<set $UVWHeightBefore = $UVWHeightBefore*8/10>>
     <<wait 2.0>>
     <<endif>>
--> <color=\#FF00EF>Yes</color>
+-> <color=\#25C8B0>Yes</color>
     <<if $frameShrink == false>>
     <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} 0.45 0.8 2 false>>
     <<set $UVWidthBefore = $UVWidthBefore*45/100>>
@@ -122,7 +122,7 @@ Hey Rainy, how are you today?
     <<set $UVWHeightBefore = $UVWHeightBefore*8/10>>
     <<wait 2.0>>
     <<endif>>
--> <color=\#FF00EF>Yes</color>
+-> <color=\#25C8B0>Yes</color>
     <<if $frameShrink == false>>
     <<EditShaderFrame LayoutManager {$UVWidthBefore} {$UVWHeightBefore} 0.45 0.8 2 false>>
     <<set $UVWidthBefore = $UVWidthBefore*45/100>>

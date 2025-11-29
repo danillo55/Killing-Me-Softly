@@ -3,7 +3,7 @@
 
 // <<SetLinePresenterLayout 500 500 700>>
 <<SetTextLayoutUI LayoutManager false false true 500 500 700>>
-Ah...
-Now I just need to ask the final question...
+<color=\#DE4E00>Ah...</color>
+<color=\#DE4E00>Now I just need to ask the final question...</color>
 <<ChangeScene LayoutManager "Scene 19" 0.5>>
 ===

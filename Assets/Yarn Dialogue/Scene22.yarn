@@ -6,18 +6,17 @@
 <<textColorChangeToWhite LayoutManager>>
 <<EditShaderFrame LayoutManager 0.7 0.7 0.7 0.7 0 false>>
 
-<color=\#0090FF><i>I know we're going to talk about her favorite movies.</i></color>
-<color=\#0090FF><i>There's also a firework festival next week. Let's talk about it too.</i></color>
-<color=\#0090FF><i>But what should I talk first....</i></color>
+<color=\#DE4E00><i>I know we're going to talk about her favorite movies.</i></color>
+<color=\#DE4E00><i>There's also a firework festival next week. Let's talk about it too.</i></color>
+<color=\#DE4E00><i>But what should I talk first....</i></color>
 
 <<wait 1>>
-<color=\#0090FF>Oh, I know.</color>
+<color=\#DE4E00>Oh, I know.</color>
 
--> <color=\#0090FF>You know, I really missed this</color>
-    <color=\#FF00EF>Missed what?</color>
+-> <color=\#DE4E00>You know, I really missed this</color>
+    <color=\#25C8B0>Missed what?</color>
 
--> <color=\#0090FF>You know, This moment</color>
-    <color=\#0090FF>When we walk together, just two of us.</color>
+-> <color=\#DE4E00>This moment, just two of us.</color>
 
 <<wait 1>>
 <<HideBook Book>>
@@ -26,9 +25,9 @@
 
 <<ShowBook2 Book>>
 
-<color=\#0090FF><i>I has to match her step...</i></color>
-<color=\#0090FF><i>Her feet is not that small, but her reach isn't that wide.</i></color>
-<color=\#0090FF><i>She walk slower than me, I have to be careful.</i></color>
+<color=\#DE4E00><i>I has to match her step...</i></color>
+<color=\#DE4E00><i>Her feet is not that small, but her reach isn't that wide.</i></color>
+<color=\#DE4E00><i>She walk slower than me, I have to be careful.</i></color>
 
 <<LoadChoice LayoutManager>>
 <<SetTextLayoutUI LayoutManager true false true 1075 0 -360>>

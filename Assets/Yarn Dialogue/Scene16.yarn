@@ -3,28 +3,28 @@
 //<<FadeFrame YarnCommand 1 0 2>>
 
 //<<SetTextLayoutUI LayoutManager false false true 300 300 800>>
-
+<<PlayMusic MusicPlayer 1>>
 <<wait 1>>
 //<<FadeFrame YarnCommand 2 0 2>>
 <<ShowBook4 Book>>
 <<wait 1>>
 <<MoveObject4 Book -300 0>>
 
-Today is the deadline for her microbiology essay.
+<color=\#DE4E00>Today is the deadline for her microbiology essay.</color>
 <<wait 1>>
 //<<FadeFrame YarnCommand 3 0 2>>
 <<ShowBook5 Book>>
 <<wait 1>>
 <<MoveObject5 Book 0 0>>
 
-She will do it at the library, because she wants to meet me.
+<color=\#DE4E00>She will do it at the library, because she wants to meet me.</color>
 <<wait 1>>
 <<FadeFrame YarnCommand 4 0 2>>
 <<MoveObject Book 300 -150>>
 
 <<wait 2>>
 
-And after that....
+<color=\#DE4E00>And after that....</color>
 
 <<wait 2>>
 
@@ -35,4 +35,5 @@ And after that....
 
 <<wait 1>>
 <<ShowMindScene LayoutManager 1>>
+
 ===

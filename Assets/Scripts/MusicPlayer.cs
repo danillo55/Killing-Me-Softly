@@ -58,8 +58,9 @@ public class MusicPlayer : MonoBehaviour
     public void PlaySFX(float fadeDuration)
     {
         
-        SoundEffect.DOFade(1f, fadeDuration).OnPlay(() => SoundEffect.Play());
-
+        SoundEffect.DOFade(1f, 0.1f).OnPlay(() => SoundEffect.Play());
+    //    Invoke(nameof(StopSFX), fadeDuration);
+        Debug.Log("SFX played");
     }
 
     [YarnCommand("StopSFX")]
@@ -68,7 +69,7 @@ public class MusicPlayer : MonoBehaviour
     {
 
         SoundEffect.DOFade(0f, fadeDuration).OnComplete(() => SoundEffect.Stop());
-
+        Debug.Log(" SFX Stopped");
 
     }
 

@@ -10,12 +10,13 @@
 
 // <<SetTextLayoutUI LayoutManager false false true 300 300 800>>
 
-Just a little bit more, and this 1000 words essay will be done...
+<color=\#25C8B0>Just a little bit more, and this 1000 words essay will be done...</color>
 <<PlayAdditionalSFX LayoutManager 2>>
+<<PlaySFX MusicPlayer 2>>
 <<ShowBook2 Book>>
 <<wait 4>>
 
-Fiuh, it's done!
+<color=\#25C8B0>Fiuh, it's done!</color>
 
 <<HideBook2 Book>>
 <<HideBook Book>>
@@ -23,6 +24,7 @@ Fiuh, it's done!
 
 <<ShowBook3 Book>>
 <<ShowBook5 Book>>
+<<ShowBook6 Book>>
 <<wait 1.0>>
 
 <<ShrinkFrame YarnCommand 0.6 0.5 1 3>>
@@ -30,8 +32,8 @@ Fiuh, it's done!
 <<textColorChangeToWhite LayoutManager>>
 <<wait 3.0>>
 
-I can always study at my comfortable place.
-But there's a reason why I want to do it here.
+<color=\#25C8B0>I can always study at my comfortable place.</color>
+<color=\#25C8B0>But there's a reason why I want to do it here.</color>
 
 <<ChangeScene LayoutManager "LibraryScene" 0.5>>
 

@@ -1,8 +1,8 @@
 ﻿title: Scene13
 ---
 <<SetTextLayoutUI LayoutManager false false true 500 500 430>>
-Universe must be helping me carving this destiny... 
-...right?
+<color=\#25C8B0>Universe must be helping me carving this destiny... </color>
+<color=\#25C8B0>...right?</color>
 <<SaveScene LayoutManager 14>>
 <<ChangeScene LayoutManager "Main Menu Jo's Episode" 3>>
 ===

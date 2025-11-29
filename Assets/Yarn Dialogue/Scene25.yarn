@@ -6,5 +6,5 @@
 <<PlayAdditionalSFX LayoutManager 0.8>>
 <<SaveScene LayoutManager 26>>
 <<wait 1>>
-<<ChangeScene LayoutManager "Main Menu Jo's Episode" 2>>
+<<ChangeScene LayoutManager "Main Menu Their Episode" 2>>
 ===

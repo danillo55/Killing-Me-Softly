@@ -14,7 +14,7 @@ public class DialogueFillGame : MonoBehaviour
 
     private int currentIndex = 0; // Which blank we’re filling
 
-    private string sentenceTemplate = "I feel _____ because you _____ me. no one ever this _____ to me.";
+    private string sentenceTemplate = "I feel _____ because he _____ me. No one ever this _____ to me.";
 
 
     void Start()
@@ -75,7 +75,7 @@ public class DialogueFillGame : MonoBehaviour
     }
 }
 
-    void ShakeButton(Button btn)
+    public void ShakeButton(Button btn)
     {
         RectTransform rect = btn.GetComponent<RectTransform>();
         rect.DOShakePosition(0.5f, strength: new Vector3(10f, 0f, 0f), vibrato: 10, randomness: 90, snapping: false, fadeOut: true);

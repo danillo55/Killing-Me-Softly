@@ -4,25 +4,23 @@
 //<color=\#FF00EF><i>It's still raining outside, but I'm happy.</i></color>
 //<color=\#FF00EF><i>Finally, I can spend some time with him again.  </i></color>
 
-<color=\#0090FF>You know, I really missed this</color>
-You know, I really missed this
--> <color=\#FF00EF>Missed what?</color>
-    <color=\#0090FF>You know, This moment</color>
-    <color=\#0090FF>This moment, when we walk together, just two of us.</color>
+<color=\#DE4E00>You know, I really missed this</color>
+-> <color=\#25C8B0>Missed what?</color>
+    <color=\#DE4E00>This moment, when we walk together...</color>
+    <color=\#DE4E00>Just two of us.</color>
     
 
-<color=\#0090FF>Also, do you know there’s a fireworks show next week?</color>
-<color=\#0090FF>Sunday night, at town square.</color>
--> <color=\#FF00EF>Let's go!</color>
+<color=\#DE4E00>Also, do you know there’s a fireworks show next week?</color>
+-> <color=\#25C8B0>Let's go!</color>
     <<SaveChoice LayoutManager 1>>
--> <color=\#FF00EF>I want to go, but...</color>
-    <color=\#0090FF>Yes?</color>
-    -> <color=\#FF00EF>I'm not good with crowds.</color>
-        <color=\#0090FF>Ah, well then, I’ll have to invite someone else.</color>
-        -> <color=\#FF00EF>Wait! I'll go.</color>
+-> <color=\#25C8B0>I want to go, but...</color>
+    <color=\#DE4E00>Yes?</color>
+    -> <color=\#25C8B0>I'm not good with crowds.</color>
+        <color=\#DE4E00>Ah, well then, I’ll have to invite someone else.</color>
+        -> <color=\#25C8B0>Wait! I'll go.</color>
             <<SaveChoice LayoutManager 2>>
 
-<color=\#0090FF>Great! I’ll contact you next week.</color>
+<color=\#DE4E00>Great! I’ll contact you next week.</color>
 
 <<ChangeScene LayoutManager "Scene 8" 0.5>>
 

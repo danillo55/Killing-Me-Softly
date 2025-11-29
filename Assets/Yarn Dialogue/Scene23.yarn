@@ -6,15 +6,19 @@
 //It's still raining outside, but it's okay.
 //She'll follow me, even when I don't have umbrella.  
 <<ShowMindScene LayoutManager 0.1>>
--><color=\#ffffff>Did you hear there’s a fireworks show next week?</color>
+
+-><color=\#DE4E00>Did you hear there’s a fireworks show next week?</color>
+
 <<HideMindScene LayoutManager 0.1>>
-<color=\#ffffff>Not that I don't want to go, but....</color>
-<color=\#ffffff>I’m not good with crowds like that.</color>
+<color=\#25C8B0>Not that I don't want to go, but....</color>
+<color=\#25C8B0>I’m not good with crowds like that.</color>
 
 <<ShowMindScene LayoutManager 0.1>>
--><color=\#ffffff> I’ll invite someone else then</color>
-<<ShowMindScene LayoutManager 0.1>>
-<color=\#ffffff>Wait! I’ll go! </color>
+<<HideChoice LayoutManager 0.1>>
+-><color=\#DE4E00> I’ll invite someone else then</color>
+
+<<HideMindScene LayoutManager 0.1>>
+<color=\#25C8B0>Wait! I’ll go! </color>
 
 
 //Great! I’ll contact you next week.

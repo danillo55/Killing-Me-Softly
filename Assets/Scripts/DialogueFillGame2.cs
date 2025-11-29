@@ -14,7 +14,7 @@ public class DialogueFillGame2 : MonoBehaviour
 
     private int currentIndex = 0; // Which blank we’re filling
 
-    private string sentenceTemplate = "_____ _____ _____ _____ _____ _____";
+    private string sentenceTemplate = "_____, _____. _____ _____ _____ _____?";
 
 
     void Start()

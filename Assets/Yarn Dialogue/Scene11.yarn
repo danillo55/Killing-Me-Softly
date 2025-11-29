@@ -6,7 +6,7 @@
 
 <<wait 1>>
 
-Don't you feel our interaction is destined?
+<color=\#25C8B0>Don't you feel our interaction is destined?</color>
 <<ChangeScene LayoutManager "Scene 12" 0.5>>
 
 ===

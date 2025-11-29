@@ -114,6 +114,7 @@ public class LayoutManager : MonoBehaviour
 
         AdditionalSFX.DOFade(1f, 0).OnPlay(() => AdditionalSFX.Play());
         Invoke(nameof(StopAdditionalSFX), sfxduration);
+        Debug.Log("Additional SFX played");
 
     }
 
@@ -123,6 +124,7 @@ public class LayoutManager : MonoBehaviour
     {
 
         AdditionalSFX.DOFade(0f, 0.5f).OnComplete(() => AdditionalSFX.Stop());
+        Debug.Log("Stopped");
 
     }
 
@@ -226,7 +228,7 @@ public class LayoutManager : MonoBehaviour
         PlayerPrefs.Save();
         Debug.Log("Saved scene: " + sceneName);
         frameMaterial.SetVector("_Size", new Vector2(1f, 1f));
-
+        frameMaterial.SetVector("_Center", new Vector2(0.5f, 0.5f));
         
     }
 
