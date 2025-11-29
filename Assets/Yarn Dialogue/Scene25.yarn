@@ -2,7 +2,7 @@
 ---
 
 <<PlayMusic MusicPlayer 1>>
-<<HeartbeatAnimation Book 3630 0 2>>
+<<HeartbeatAnimation Book 5180 0 1.5>>
 <<PlayAdditionalSFX LayoutManager 0.8>>
 <<SaveScene LayoutManager 26>>
 <<wait 1>>

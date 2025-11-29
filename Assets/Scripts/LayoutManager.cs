@@ -26,7 +26,7 @@ public class LayoutManager : MonoBehaviour
 
     [SerializeField] private GameObject MiniGameObject, MiniGameChoice;
     [SerializeField] private DialogueRunner dialogue;
-    [SerializeField] private AudioSource AdditionalSFX;
+    [SerializeField] private AudioSource AdditionalSFX, AdditionalSFX2;
 
 
     [YarnCommand("SetTextLayoutUI")]
@@ -128,6 +128,26 @@ public class LayoutManager : MonoBehaviour
 
     }
 
+    [YarnCommand("PlayAdditionalSFX2")]
+    public void PlayAdditionalSFX2(float sfxduration)
+    {
+
+        AdditionalSFX2.DOFade(1f, 0).OnPlay(() => AdditionalSFX2.Play());
+        Invoke(nameof(StopAdditionalSFX), sfxduration);
+        Debug.Log("Additional SFX played");
+
+    }
+
+    [YarnCommand("StopAdditionalSFX2")]
+
+    public void StopAdditionalSFX2()
+    {
+
+        AdditionalSFX2.DOFade(0f, 0.5f).OnComplete(() => AdditionalSFX2.Stop());
+        Debug.Log("Stopped");
+
+    }
+
     [YarnCommand("textColorChangeToWhite")]
     public void SetTextColorWhite()
     {
@@ -202,7 +222,6 @@ public class LayoutManager : MonoBehaviour
         PlayerPrefs.SetInt("Choice", choice);
         PlayerPrefs.Save();
         
-    
     }
 
     [YarnCommand("LoadChoice")]
@@ -217,9 +236,7 @@ public class LayoutManager : MonoBehaviour
     {
         frameMaterial.SetVector("_Center", new Vector2(0.5f, 0.5f));
         Debug.Log("Material center changed");
-    }
-
-    
+    }    
     
     void Start()
     {

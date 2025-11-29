@@ -2,7 +2,7 @@
 ---
 
 // <<SetLinePresenterLayout 500 500 700>>
-<<SetTextLayoutUI LayoutManager false false true 500 500 700>>
-<color=\#DE4E00>Because today is the day I'll walk her home...</color>
+
+<color=\#DE4E00>Because today is the day I walk her home...</color>
 <<ChangeScene LayoutManager "Scene 16" 0.5>>
 ===

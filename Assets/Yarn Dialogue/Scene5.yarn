@@ -10,7 +10,9 @@
 
 <color=\#25C8B0>Yes...</color>
 
-<<wait 2>>
+<<wait 1>>
 
-<<ChangeScene LayoutManager "Scene 6" 0.5>>  
+<<PlayAdditionalSFX LayoutManager 2>>
+
+<<ChangeScene LayoutManager "Scene 6" 2>>  
 ===
