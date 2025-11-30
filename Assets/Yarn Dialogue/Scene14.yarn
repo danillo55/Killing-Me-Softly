@@ -4,6 +4,7 @@
 <<textColorChangeToWhite LayoutManager>>
 
 //<<FadeFrame YarnCommand 2 0 2>>
+<<ChangeMusic MusicPlayer 2>>
 <<PlayMusic MusicPlayer 1>>
 <<ShowBook4 Book>>
 <<wait 2>>

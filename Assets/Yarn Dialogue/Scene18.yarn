@@ -4,6 +4,8 @@
 // <<SetLinePresenterLayout 500 500 700>>
 <<SetTextLayoutUI LayoutManager false false true 500 500 700>>
 <color=\#DE4E00>Ah...</color>
-<color=\#DE4E00>Now I just need to ask the final question...</color>
+<color=\#DE4E00>She is so easy to control</color>
+<color=\#DE4E00>I can get her sympathy, just by saying all my classmates are sick</color>
+<color=\#DE4E00>Now, let's walk her home.</color>
 <<ChangeScene LayoutManager "Scene 19" 0.5>>
 ===

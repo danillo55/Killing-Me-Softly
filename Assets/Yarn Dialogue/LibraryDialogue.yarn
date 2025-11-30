@@ -5,15 +5,21 @@
 
 title: MadingClicked
 ---
-<color=\#25C8B0>This is information board. Librarians posted their announcement here.</color>
+<color=\#25C8B0>This is information board. Important news usually posted here.</color>
+<color=\#25C8B0>Is there anything new? let's see.</color>
+<color=\#25C8B0>"A dead body has been found near University B. All student please be careful, even on the campus ground."</color>
+<color=\#25C8B0>Okay, that's scary</color>
 ===
 
 title: LibrarianClicked
 ---
 <color=\#25C8B0>Mrs. Librarian always tell me to shut up even though I rarely make any noise.</color>
+<color=\#25C8B0>What's her problem? That's why people won't come here anymore</color>
 ===
 
 title: WindowClicked
 ---
 <color=\#25C8B0>There's a heavy rain outside</color>
+<color=\#25C8B0>I don't bring my umbrella. But it's okay.</color> 
+<color=\#25C8B0>That's mean I can spend more time here</color>
 ===

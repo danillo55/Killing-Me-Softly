@@ -5,7 +5,13 @@
 <<textColorChangeToWhite LayoutManager>>
 <<EditShaderFrame LayoutManager 0.7 0.7 0.7 0.7 0 false>>
 
-<color=\#DE4E00><i>This camonella tea tastes nice.</i></color>
+<color=\#DE4E00><i>This camomile tea tastes nice.</i></color>
+
+<<MoveObject Book 110 -99>>
+
+<<wait  1>>
+<<PlayAdditionalSFX LayoutManager 1>>
+
 <color=\#DE4E00><i>Though my heart is not calm at all.</i></color>
 <color=\#DE4E00><i>I feel there's typhoon inside, ready to explode.</i></color>
 

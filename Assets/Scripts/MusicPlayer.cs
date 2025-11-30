@@ -9,6 +9,7 @@ public class MusicPlayer : MonoBehaviour
    private static MusicPlayer instance;
 
    [SerializeField] private AudioSource BackgroundMusic, RainSFX, SoundEffect;
+   [SerializeField] private AudioClip[] songs;
 
 
     [YarnCommand("PlayMusic")]
@@ -21,6 +22,7 @@ public class MusicPlayer : MonoBehaviour
         }
         else
         {
+            Debug.Log("Play new music");
             BackgroundMusic.DOFade(1f, fadeDuration).OnPlay(() => BackgroundMusic.Play());
         }
     }
@@ -70,6 +72,15 @@ public class MusicPlayer : MonoBehaviour
 
         SoundEffect.DOFade(0f, fadeDuration).OnComplete(() => SoundEffect.Stop());
         Debug.Log(" SFX Stopped");
+
+    }
+
+    [YarnCommand("ChangeMusic")]
+    public void changeMusic(int index)
+    {
+
+        Debug.Log("Change Music");
+        BackgroundMusic.clip = songs[index];
 
     }
 

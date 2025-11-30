@@ -10,6 +10,6 @@
 <<ShowBook5 Book>>
 
 //<<PlayAdditionalSFX2 LayoutManager 10>>
-<<StopMusic MusicPlayer>>
+<<StopMusic MusicPlayer 1>>
 <<ChangeScene LayoutManager "Credit Title" 2>>
 ===

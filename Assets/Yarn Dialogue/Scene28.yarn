@@ -19,6 +19,8 @@
 
 <<wait  3>>
 <<MoveObject4 Book 0 0>>
+<<ChangeMusic MusicPlayer 1>>
+<<PlayMusic MusicPlayer 1>>
 <<wait  2>>
 
 <<ScaleBook4 Book>>

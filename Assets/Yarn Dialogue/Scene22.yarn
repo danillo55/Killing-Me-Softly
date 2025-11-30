@@ -7,11 +7,10 @@
 <<EditShaderFrame LayoutManager 0.7 0.7 0.7 0.7 0 false>>
 
 <color=\#DE4E00><i>I know we're going to talk about her favorite movies.</i></color>
-<color=\#DE4E00><i>There's also a firework festival next week. Let's talk about it too.</i></color>
-<color=\#DE4E00><i>But what should I talk first....</i></color>
+<color=\#DE4E00><i>There's also a firework festival next week. Let's invite her too.</i></color>
+<color=\#DE4E00><i>But I need to sweet talk her first, make her dance on my palm</i></color>
 
 <<wait 1>>
-<color=\#DE4E00>Oh, I know.</color>
 
 -> <color=\#DE4E00>You know, I really missed this</color>
     <color=\#25C8B0>Missed what?</color>
@@ -35,13 +34,13 @@
 
 <<PlayAdditionalSFX LayoutManager 2>>
 
-<color=\#DE4E00>Her feet is not that small, but her reach isn't that wide.</color>
+<color=\#DE4E00>Why is she walk so slow? Can she go a little bit faster?</color>
 
 <<ShowBook4 Book>>
 <<wait 2>>
 <<PlayAdditionalSFX LayoutManager 2>>
 
-<color=\#DE4E00>Why is she walk slower than me? Could she go a little bit faster?!</color>
+<color=\#DE4E00>Whatever, let's just talk about firework</color>
 
 //<<ShowBook2 Book>>
 

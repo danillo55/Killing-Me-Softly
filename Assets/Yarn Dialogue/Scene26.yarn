@@ -2,6 +2,7 @@
 ---
 // <<SetLinePresenterLayout 500 500 700>>
 <<SetTextLayoutUI LayoutManager false false true 500 500 700>>
+<<PlayRainSFX MusicPlayer 1>>
 I'm having a hard time holding on this ecstasy.
 Finally... We are together.
 On this one confined space...
