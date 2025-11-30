@@ -1,0 +1,21 @@
+﻿title: Scene29
+---
+<<PlayAdditionalSFX2 LayoutManager 20>>
+<<textColorChangeToWhite LayoutManager>>
+<<wait  1>>
+//<<SetTextLayoutUI LayoutManager false false true 300 300 800>>
+//<i>Huh...</i>
+//<i>It's very dark...</i>
+//<color=\#25C8B0>Wait, I'll turn on the lamp.</color>
+<<wait  3>>
+
+<<PlayAdditionalSFX LayoutManager 2>>
+//<<PlayAdditionalSFX2 LayoutManager 20>>
+<<HideBook4 Book>>
+
+<<wait  5>>
+
+//Great! I’ll contact you next week.
+
+<<ChangeScene LayoutManager "Scene 30" 0.5>>
+===

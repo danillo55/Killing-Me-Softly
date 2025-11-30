@@ -24,15 +24,37 @@
 <<wait 3>>
 
 <<ShowBook2 Book>>
+<<wait 2>>
+<<PlayAdditionalSFX LayoutManager 2>>
 
-<color=\#DE4E00><i>I have to match her step...</i></color>
-<color=\#DE4E00><i>Her feet is not that small, but her reach isn't that wide.</i></color>
-<color=\#DE4E00><i>She walk slower than me, I have to be careful.</i></color>
+<color=\#DE4E00>I have to match her step...</color>
+
+//<<FadeFrame YarnCommand 3 0 2>>
+<<ShowBook3 Book>>
+<<wait 2>>
+
+<<PlayAdditionalSFX LayoutManager 2>>
+
+<color=\#DE4E00>Her feet is not that small, but her reach isn't that wide.</color>
+
+<<ShowBook4 Book>>
+<<wait 2>>
+<<PlayAdditionalSFX LayoutManager 2>>
+
+<color=\#DE4E00>Why is she walk slower than me? Could she go a little bit faster?!</color>
+
+//<<ShowBook2 Book>>
+
+//<color=\#DE4E00><i>I have to match her step...</i></color>
+//<color=\#DE4E00><i>Her feet is not that small, but her reach isn't that wide.</i></color>
+//<color=\#DE4E00><i>She walk slower than me, I have to be careful.</i></color>
 
 <<LoadChoice LayoutManager>>
 <<SetTextLayoutUI LayoutManager true false true 1075 0 -360>>
 
 <<HideBook2 Book>>
+<<HideBook3 Book>>
+<<HideBook4 Book>>
 <<wait 3>>
 //-> <color=\#0090FF>Did you know, there’s a fireworks show next week?</color>   
 

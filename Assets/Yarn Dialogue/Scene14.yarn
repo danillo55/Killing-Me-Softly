@@ -19,9 +19,9 @@
 
 <color=\#DE4E00>I can see it, I know, I know everything about her.</color>
 
-<<FadeFrame YarnCommand 4 0 2>>
-<<MoveObject Book 320 -150>>
-<<PlayAdditionalSFX2 LayoutManager 2>>
+<<ShowBook2 Book>>
+<<wait 2>>
+<<PlayAdditionalSFX LayoutManager 2>>
 
 <color=\#DE4E00>But I never see her room. I want to see it, see her in her room. But that can wait.</color>
 

@@ -91,6 +91,33 @@ public class BookView : MonoBehaviour
 
     }
 
+    [YarnCommand("HideBook3")]
+    public void HideBook3Function()
+    {
+
+        //    book1.SetActive(true);
+    book3.GetComponent<Image>().DOFade(0f, 3f);
+
+    }
+
+    [YarnCommand("HideBook4")]
+    public void HideBook4Function()
+    {
+
+        //    book1.SetActive(true);
+        book4.GetComponent<Image>().DOFade(0f, 3f);
+
+    }
+
+    [YarnCommand("HideBook5")]
+    public void HideBook5Function()
+    {
+
+        //    book1.SetActive(true);
+        book5.GetComponent<Image>().DOFade(0f, 3f);
+
+    }
+
     [YarnCommand("HideBook6")]
     public void HideBook6Function()
     {
@@ -100,6 +127,39 @@ public class BookView : MonoBehaviour
 
     }
 
+    [YarnCommand("ScaleBook")]
+    public void scaleBook()
+    {
+
+        //    book1.SetActive(true);
+        book1.GetComponent<RectTransform>().DOScale(new Vector3(1,1,1), 2f);
+
+    }
+    
+    [YarnCommand("ScaleBook2")]
+    public void scaleBook2()
+    {
+
+        //    book1.SetActive(true);
+        book2.GetComponent<RectTransform>().DOScale(new Vector3(1,1,1), 2f);
+
+    }    
+    [YarnCommand("ScaleBook3")]
+    public void scaleBook3()
+    {
+
+        //    book1.SetActive(true);
+        book3.GetComponent<RectTransform>().DOScale(new Vector3(1,1,1), 2f);
+
+    }
+    [YarnCommand("ScaleBook4")]
+    public void scaleBook4()
+    {
+
+        //    book1.SetActive(true);
+        book4.GetComponent<RectTransform>().DOScale(new Vector3(1,1,1), 2f);
+
+    }
 
     [YarnCommand("AnimateWriting")]
     public void ChangeBook()

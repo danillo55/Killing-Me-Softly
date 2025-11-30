@@ -1,0 +1,11 @@
+﻿title: Scene26
+---
+// <<SetLinePresenterLayout 500 500 700>>
+<<SetTextLayoutUI LayoutManager false false true 500 500 700>>
+I'm having a hard time holding on this ecstasy.
+Finally... We are together.
+On this one confined space...
+Just two of us....
+And no one will have power to stop me.
+<<ChangeScene LayoutManager "Scene 27" 0.5>>
+===

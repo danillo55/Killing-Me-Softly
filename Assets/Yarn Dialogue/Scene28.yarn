@@ -1,0 +1,28 @@
+﻿title: Scene28
+---
+
+<<textColorChangeToWhite LayoutManager>>
+
+//It's still raining outside, but it's okay.
+//She'll follow me, even when I don't have umbrella.  
+<color=\#25C8B0>Hey...</color>
+<color=\#25C8B0>Wanna see my room?</color>
+
+-><color=\#DE4E00>Ah, Is that okay?</color>
+
+
+<color=\#25C8B0>Yes.</color>
+<color=\#25C8B0>No one has ever see my room before.</color>
+<color=\#25C8B0>You have my permission. Go on.</color>
+
+<<HideBook Book>>
+
+<<wait  3>>
+<<MoveObject4 Book 0 0>>
+<<wait  2>>
+
+<<ScaleBook4 Book>>
+//Great! I’ll contact you next week.
+
+<<ChangeScene LayoutManager "Scene 29" 0.5>>
+===

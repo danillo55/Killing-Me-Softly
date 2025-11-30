@@ -784,7 +784,7 @@ GameObject:
   - component: {fileID: 368289390}
   - component: {fileID: 368289389}
   m_Layer: 0
-  m_Name: Sikil Sprite 3
+  m_Name: Panel Jo 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -829,7 +829,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1372961245, guid: 473261cd79f19c74c861c7c14ab50af0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9c6f1954daa391f4487f60da0c9deb44, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1929,7 +1929,7 @@ GameObject:
   - component: {fileID: 1023878065}
   - component: {fileID: 1023878064}
   m_Layer: 0
-  m_Name: Sikil Sprite
+  m_Name: Panel Jo 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1974,7 +1974,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1504482676, guid: 473261cd79f19c74c861c7c14ab50af0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 09a6c472d9fbb9e4a9a6a460ffec73e8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3031,7 +3031,7 @@ GameObject:
   - component: {fileID: 1666769009}
   - component: {fileID: 1666769008}
   m_Layer: 0
-  m_Name: Sikil Sprite 2
+  m_Name: Panel Jo 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3076,7 +3076,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1101676237, guid: 473261cd79f19c74c861c7c14ab50af0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd9d6ef36fc50cb4cb6c8987f01f02ce, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

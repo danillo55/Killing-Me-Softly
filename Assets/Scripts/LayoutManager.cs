@@ -133,8 +133,8 @@ public class LayoutManager : MonoBehaviour
     {
 
         AdditionalSFX2.DOFade(1f, 0).OnPlay(() => AdditionalSFX2.Play());
-        Invoke(nameof(StopAdditionalSFX), sfxduration);
-        Debug.Log("Additional SFX played");
+        Invoke(nameof(StopAdditionalSFX2), sfxduration);
+        Debug.Log("Additional SFX 2 played");
 
     }
 

@@ -1,0 +1,8 @@
+﻿title: OpeningScene
+---
+
+// <<SetLinePresenterLayout 500 500 700>>
+
+<<wait 3>>
+<<ChangeScene LayoutManager "Main Menu Rainy's Episode" 0.5>>
+===

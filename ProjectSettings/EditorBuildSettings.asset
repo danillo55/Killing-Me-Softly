@@ -48,8 +48,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene/TestScene 13.unity
     guid: a70c2296aa9b9b64d87ef456998a10bc
   - enabled: 1
-    path: Assets/Scenes/Main Menu Their Episode.unity
-    guid: b1534fb48574bee41b640ba37e4f5d14
+    path: Assets/Scenes/Main Menu Jo's Episode.unity
+    guid: dfa2e456b753d3b4882f7e736b53ee3d
   - enabled: 1
     path: Assets/Scenes/Scene/Scene 14.unity
     guid: d6f27e5626d218c46ac7d4baa550487f
@@ -81,11 +81,26 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene/Scene 24.unity
     guid: 023f0cfdf84363e4aa336d5f7571b023
   - enabled: 1
+    path: Assets/Scenes/Main Menu Their Episode.unity
+    guid: b1534fb48574bee41b640ba37e4f5d14
+  - enabled: 1
     path: Assets/Scenes/Scene/Scene 25.unity
     guid: 3bf994d4697b7f644a2b25487bbd9870
   - enabled: 1
-    path: Assets/Scenes/Main Menu Jo's Episode.unity
-    guid: dfa2e456b753d3b4882f7e736b53ee3d
+    path: Assets/Scenes/Scene/Scene 26.unity
+    guid: 5dbe3ca87684eca469041da5292986f8
+  - enabled: 1
+    path: Assets/Scenes/Scene/Scene 27.unity
+    guid: e3e517bb0106fb24bbf73ad309205626
+  - enabled: 1
+    path: Assets/Scenes/Scene/Scene 28.unity
+    guid: 65f236c18f36d7d48b7245dd0c0a1aa4
+  - enabled: 1
+    path: Assets/Scenes/Scene/Scene 29.unity
+    guid: 699268cd0e86f58419f1e2ba2ea76fdf
+  - enabled: 1
+    path: Assets/Scenes/Scene/Scene 30.unity
+    guid: 6212a735891e2db47a654d2e675f844d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

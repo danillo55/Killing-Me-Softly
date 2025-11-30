@@ -1,0 +1,14 @@
+﻿title: Scene30
+---
+
+<<PlayMusic MusicPlayer 1>>
+<<HeartbeatAnimation Book 5180 0 1.5>>
+<<PlayAdditionalSFX LayoutManager 0.7>>
+<<SaveScene LayoutManager 26>>
+<<wait  3>>
+<<ShowBook5 Book>>
+
+<<PlayAdditionalSFX2 LayoutManager 10>>
+<<wait  5>>>>
+<<ChangeScene LayoutManager "Main Menu Their Episode" 2>>
+===

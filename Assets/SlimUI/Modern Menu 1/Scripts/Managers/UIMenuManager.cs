@@ -144,6 +144,9 @@ namespace SlimUI.ModernMenu{
 			else if(sceneName == "Main Menu Jo's Episode"){
 				TransitionManager.Instance().Transition("Scene 14", transition, 0.5f);
 			}
+			else if(sceneName == "Main Menu Their Episode"){
+				TransitionManager.Instance().Transition("Scene 26", transition, 0.5f);
+			}
 			
 		}
 

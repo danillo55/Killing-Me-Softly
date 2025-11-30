@@ -90,7 +90,7 @@ Material:
     - _Box1Alpha: 1
     - _Box2Alpha: 1
     - _Box3Alpha: 1
-    - _Box4Alpha: 0
+    - _Box4Alpha: 1
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
