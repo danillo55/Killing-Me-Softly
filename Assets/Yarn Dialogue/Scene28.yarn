@@ -8,7 +8,7 @@
 <color=\#25C8B0>Hey...</color>
 <color=\#25C8B0>Wanna see my room?</color>
 
--><color=\#DE4E00>Ah, Is that okay?</color>
+-><color=\#DE4E00>Ah, is that okay?</color>
 
 
 <color=\#25C8B0>Yes.</color>
@@ -20,7 +20,6 @@
 <<wait  3>>
 <<MoveObject4 Book 0 0>>
 <<ChangeMusic MusicPlayer 1>>
-<<PlayMusic MusicPlayer 1>>
 <<wait  2>>
 
 <<ScaleBook4 Book>>

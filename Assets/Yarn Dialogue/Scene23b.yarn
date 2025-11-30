@@ -1,4 +1,4 @@
-﻿title: Scene23
+﻿title: Scene23b
 ---
 
 <<textColorChangeToWhite LayoutManager>>
@@ -23,5 +23,5 @@
 
 //Great! I’ll contact you next week.
 
-<<ChangeScene LayoutManager "Scene 23b" 0.5>>
+<<ChangeScene LayoutManager "Scene 24" 0.5>>
 ===

@@ -711,7 +711,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: This game prototype is developed as a proof of concept and submission for
-    Novejam 2025
+    Novejam 2025.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e76ecb71d2e45474aa7ba270c09d7825, type: 2}
   m_sharedMaterial: {fileID: 5678841948212564882, guid: e76ecb71d2e45474aa7ba270c09d7825, type: 2}

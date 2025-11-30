@@ -2,20 +2,30 @@
 ---
 //<<PlayAdditionalSFX LayoutManager 20>>
 <<textColorChangeToWhite LayoutManager>>
-<<wait  1>>
+<<wait 1>>
 //<<SetTextLayoutUI LayoutManager false false true 300 300 800>>
-//<i>Huh...</i>
-//<i>It's very dark...</i>
-//<color=\#25C8B0>Wait, I'll turn on the lamp.</color>
-<<wait  3>>
+<color=\#DE4E00><i>Huh...</i></color>
+<color=\#DE4E00><i>It's very dark...</i></color>
+<color=\#25C8B0>Wait, I'll turn on the lamp.</color>
+<<wait 3>>
 
 <<PlayAdditionalSFX LayoutManager 2>>
 //<<PlayAdditionalSFX2 LayoutManager 20>>
 <<HideBook4 Book>>
-
+<<PlayMusic MusicPlayer 1>>
 <<wait  5>>
 
+//<<ShowBook4 Book>>
+//<<wait  3>>>>
+<color=\#DE4E00><i>What... what is this?</i></color>
+<color=\#25C8B0>This is my room, what do you think?</color>
+<color=\#25C8B0>I don't really like people seeing for my stuff.</color>
+<color=\#25C8B0>But if it's you, I don't mind.</color>
+<color=\#DE4E00><i>No.... It can't be...</i></color>
+<color=\#25C8B0>Ah, you must be tired. Let's get some rest.</color>
+<color=\#25C8B0>Don't worry, we will always be together.</color>
 //Great! I’ll contact you next week.
-<<StopMusic MusicPlayer 1>>
-<<ChangeScene LayoutManager "Scene 30" 0.5>>
+<<wait 1>>
+//<<StopMusic MusicPlayer 3>>
+<<ChangeScene LayoutManager "Scene 30" 3>>
 ===

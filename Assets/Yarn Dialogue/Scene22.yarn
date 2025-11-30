@@ -40,7 +40,7 @@
 <<wait 2>>
 <<PlayAdditionalSFX LayoutManager 2>>
 
-<color=\#DE4E00>Whatever, let's just talk about firework</color>
+<color=\#DE4E00>Whatever, let's just talk about firework.</color>
 
 //<<ShowBook2 Book>>
 
