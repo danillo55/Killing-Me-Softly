@@ -3,9 +3,9 @@
 
 <<SetTextLayoutUI LayoutManager false false true 500 500 700>>
 <<textColorChangeToWhite LayoutManager>>
--> Do you want to go home together?
--> Do you want to go home together?
--> Do you want to go home together?
+-> <color=\#DE4E00>Do you want to go home together?</color>
+-> <color=\#DE4E00>Do you want to go home together?</color>
+-> <color=\#DE4E00>Do you want to go home together?</color>
 
 <<ChangeScene LayoutManager "Scene 20" 0.5>>
 

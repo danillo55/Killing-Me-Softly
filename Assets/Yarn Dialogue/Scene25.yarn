@@ -1,10 +1,11 @@
 ﻿title: Scene25
 ---
 
-<<PlayMusic MusicPlayer 1>>
+//<<PlayMusic MusicPlayer 1>>
 <<HeartbeatAnimation Book 5180 0 1.5>>
 <<PlayAdditionalSFX LayoutManager 0.8>>
 <<SaveScene LayoutManager 26>>
 <<wait 1>>
+<<StopMusic MusicPlayer 1>>
 <<ChangeScene LayoutManager "Main Menu Their Episode" 2>>
 ===

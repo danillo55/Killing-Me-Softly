@@ -1,0 +1,15 @@
+﻿title: Scene31
+---
+
+
+<<HeartbeatAnimation Book 5180 0 1.5>>
+<<PlayAdditionalSFX LayoutManager 5>>
+<<SaveScene LayoutManager 26>>
+<<wait 3>>
+
+<<ShowBook5 Book>>
+
+//<<PlayAdditionalSFX2 LayoutManager 10>>
+<<StopMusic MusicPlayer>>
+<<ChangeScene LayoutManager "Credit Title" 2>>
+===

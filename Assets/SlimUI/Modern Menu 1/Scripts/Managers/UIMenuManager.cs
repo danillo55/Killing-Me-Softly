@@ -82,7 +82,7 @@ namespace SlimUI.ModernMenu{
         [Tooltip("The GameObject holding the Audio Source component for the AUDIO SLIDER")]
         public AudioSource sliderSound;
         [Tooltip("The GameObject holding the Audio Source component for the SWOOSH SOUND when switching to the Settings Screen")]
-        public AudioSource swooshSound;
+        public AudioSource swooshSound, clickSound;
 
 		void Start(){
 			CameraObject = transform.GetComponent<Animator>();
@@ -135,6 +135,8 @@ namespace SlimUI.ModernMenu{
 			Debug.Log("Loading Test Scene");
 
 			Scene currentScene = SceneManager.GetActiveScene();
+
+			clickSound.Play();
 
         	// Get the scene name
         	string sceneName = currentScene.name;

@@ -201,7 +201,17 @@ public class LayoutManager : MonoBehaviour
     public void LoadScene(string _sceneName, float startDelay)
     {
 
-        TransitionManager.Instance().Transition(_sceneName, transition, startDelay);
+        if(transition == null)
+        {
+            Debug.Log("transition is empty");
+            SceneManager.LoadScene(_sceneName);
+        }
+        else
+        {
+            Debug.Log("change scene to: "+_sceneName);
+            TransitionManager.Instance().Transition(_sceneName, transition, startDelay);    
+        }
+        
     
     }
 

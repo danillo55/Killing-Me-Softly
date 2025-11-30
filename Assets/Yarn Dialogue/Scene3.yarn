@@ -72,9 +72,9 @@
         <<set $UVWHeightBefore = $UVWHeightBefore*8/10>>
         <<wait 2.0>>
         <<endif>>
-	    <color=\#0090FF>Don’t worry. I’m fine.</color>
-        <color=\#0090FF>I just don’t want to see you sick, so…</color>
-        <color=\#0090FF>Just be careful. You’re my precious friend.</color>
+	    <color=\#DE4E00>Don’t worry. I’m fine.</color>
+        <color=\#DE4E00>I just don’t want to see you sick, so…</color>
+        <color=\#DE4E00>Just be careful. You’re my precious friend.</color>
 -> <color=\#25C8B0> You still attend classes?</color>
     <color=\#DE4E00>Unlucky me, I do need to attend some extra classes.</color> 
     -> <color=\#25C8B0> Even though you are smart?</color>        		
