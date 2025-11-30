@@ -4,5 +4,6 @@
 <color=\#25C8B0>Universe must be helping me carving this destiny... </color>
 <color=\#25C8B0>...right?</color>
 <<SaveScene LayoutManager 14>>
+<<StopMusic MusicPlayer>>
 <<ChangeScene LayoutManager "Main Menu Jo's Episode" 3>>
 ===

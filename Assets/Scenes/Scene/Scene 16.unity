@@ -811,6 +811,7 @@ MonoBehaviour:
   MiniGameChoice: {fileID: 0}
   dialogue: {fileID: 0}
   AdditionalSFX: {fileID: 0}
+  AdditionalSFX2: {fileID: 0}
 --- !u!4 &152914562
 Transform:
   m_ObjectHideFlags: 0
@@ -3234,7 +3235,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -242074541, guid: 0e7b7a403ea7d7642900e7c42769c9b9, type: 3}
+  m_Sprite: {fileID: 177328555, guid: 8851d028567e6174c97e68eaf4aabb98, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

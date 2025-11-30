@@ -1,7 +1,8 @@
 ﻿title: OpeningScene
 ---
-
+<<wait 1>>
 // <<SetLinePresenterLayout 500 500 700>>
+<<HideBook3 Book>>
 
 <<wait 3>>
 <<ChangeScene LayoutManager "Main Menu Rainy's Episode" 0.5>>

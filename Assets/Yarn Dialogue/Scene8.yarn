@@ -6,18 +6,21 @@
 <<ShowBook2 Book>>
 <<wait 2>>
 <<MoveObject2 Book -300 0>>
+<<PlayAdditionalSFX LayoutManager 2>>
 <color=\#25C8B0>We walked among rainy street, me and him, together.</color>
 
 //<<FadeFrame YarnCommand 2 0 2>>
 <<ShowBook4 Book>>
 <<wait 2>>
 <<MoveObject4 Book -100 0>>
+<<PlayAdditionalSFX LayoutManager 2>>
 <color=\#25C8B0>We talked about my favourite movies, my next assignment, and other random things.</color>
 
 //<<FadeFrame YarnCommand 3 0 2>>
 <<ShowBook5 Book>>
 <<wait 2>>
 <<MoveObject5 Book 100 0>>
+<<PlayAdditionalSFX LayoutManager 2>>
 <color=\#25C8B0>Sometimes I laughed, while smiles never leave his face.</color>
 
 <<FadeFrame YarnCommand 4 0 2>>

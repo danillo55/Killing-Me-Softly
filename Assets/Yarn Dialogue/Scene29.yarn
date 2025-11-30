@@ -1,6 +1,6 @@
 ﻿title: Scene29
 ---
-<<PlayAdditionalSFX2 LayoutManager 20>>
+//<<PlayAdditionalSFX LayoutManager 20>>
 <<textColorChangeToWhite LayoutManager>>
 <<wait  1>>
 //<<SetTextLayoutUI LayoutManager false false true 300 300 800>>
@@ -16,6 +16,6 @@
 <<wait  5>>
 
 //Great! I’ll contact you next week.
-
+<<StopMusic MusicPlayer 1>>
 <<ChangeScene LayoutManager "Scene 30" 0.5>>
 ===

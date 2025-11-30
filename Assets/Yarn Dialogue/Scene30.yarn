@@ -8,7 +8,8 @@
 <<wait  3>>
 <<ShowBook5 Book>>
 
-<<PlayAdditionalSFX2 LayoutManager 10>>
+//<<PlayAdditionalSFX2 LayoutManager 10>>
 <<wait  5>>>>
+<<StopMusic MusicPlayer>>
 <<ChangeScene LayoutManager "Main Menu Their Episode" 2>>
 ===

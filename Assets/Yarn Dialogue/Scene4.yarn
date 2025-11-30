@@ -1,6 +1,5 @@
 ﻿title: Scene4
 ---
-<<PlayMusic MusicPlayer 1>>
 <<wait  1>>>>
 <<MoveObject Book -0 -100>>
 
