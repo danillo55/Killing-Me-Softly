@@ -90,7 +90,7 @@ Material:
     - _Box1Alpha: 1
     - _Box2Alpha: 1
     - _Box3Alpha: 1
-    - _Box4Alpha: 0
+    - _Box4Alpha: 1
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -129,7 +129,7 @@ Material:
     - _Box4Center: {r: 0.6999, g: 0.5, b: 0, a: 0}
     - _BoxSize: {r: 0.1, g: 0.2, b: 0, a: 0}
     - _Center: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Size: {r: 1, g: 1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
