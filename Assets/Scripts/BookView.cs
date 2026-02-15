@@ -14,11 +14,37 @@ public class BookView : MonoBehaviour
                         book6,
                         background;
 
+    private GameObject  gameObject1, 
+                        gameObject2, 
+                        gameObject3, 
+                        gameObject4, 
+                        gameObject5,
+                        gameObject6;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
     }
+
+    [YarnCommand("FadeObject")]
+    public void FadeObject(int objectIndex, float transsparencyLevel, float duration)
+    {
+        
+    }
+
+    [YarnCommand("ScaleObject")]
+    public void ScaleObject(int objectIndex, float vectorX, float vectorY, float vectorZ, float duration)
+    {
+        
+    }
+
+    [YarnCommand("MoveObject")]
+    public void MoveObject(int objectIndex, float vectorX, float vectorY, float vectorZ, float duration)
+    {
+        
+    }
+
 
     [YarnCommand("ShowBook")]
     public void LoadBook()
